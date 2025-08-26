@@ -1,0 +1,2625 @@
+{
+  "test_questions": [
+    {
+      "question": "在酿造白醋的检测中，一共检测了哪些项目？",
+      "ground_truth": "酿造白醋的检测项目包括：色泽、香气、滋味、体态、总酸（以乙酸计）、密度、酒度、菌落总数和大肠菌群。",
+      "relevant_docs": [
+        "20237531.pdf"
+      ],
+      "relevant_chunks": [
+        "序号,检验项目,标准要求,检验结果,单项结论",
+        "1,色泽,具有该产品固有的色泽,符合,合格",
+        "2,香气,具有该产品特有的香气,符合,合格",
+        "3,滋味,酸味柔和，无异味,符合,合格",
+        "4,体态,澄清,符合,合格",
+        "5,总酸（以乙酸计）(g/100mL),|最小值|目标值|最大值|≥3.50,20.05,合格",
+        "6,密度（g/mL）,1.01,1.03,1.05,1.02,合格",
+        "7,酒度(%vol),----,----,0.4,0.34,合格",
+        "8,菌落总数(CFU/mL),n=5, c=2, m=10², M=10⁴,<1、<1、<1<1、<1,合格",
+        "9,大肠菌群(CFU/mL),n=5, c=2, m=10, M=10⁷,<1、<1、<1<1、<1,合格"
+      ]
+    },
+    {
+      "question": "酿造白醋的总酸项目的检测结果是多少？",
+      "ground_truth": "酿造白醋的总酸（以乙酸计）的检测结果为20.05 g/100mL。",
+      "relevant_docs": [
+        "20237531.pdf"
+      ],
+      "relevant_chunks": [
+        "5,总酸（以乙酸计）(g/100mL),|最小值|目标值|最大值|≥3.50,20.05,合格"
+      ]
+    },
+    {
+      "question": "酿造白醋的菌落总数是否符合标准要求？",
+      "ground_truth": "酿造白醋的菌落总数符合标准要求，检测结果为<1、<1、<1、<1、<1 CFU/mL。",
+      "relevant_docs": [
+        "20237531.pdf"
+      ],
+      "relevant_chunks": [
+        "8,菌落总数(CFU/mL),n=5, c=2, m=10², M=10⁴,<1、<1、<1<1、<1,合格"
+      ]
+    },
+    {
+      "question": "肉味食品用香精XZ8420X 20223724的检测项目有哪些？",
+      "ground_truth": "检测项目包括外观、感官评定、盐分（NaCl）、水分、菌落总数、大肠菌群、沙门氏菌。",
+      "relevant_docs": [
+        "20223724.pdf"
+      ],
+      "relevant_chunks": [
+        "分析指标 检测结果 规格范围 检测方法 外观 （色泽和状态） 符合同一型号的对照品 符合同一型号的对照品 视觉观察 感官评定（香气、香味） 符合同一型号的对照品 符合同一型号的对照品 0.1%于水中 盐分（NaCl） 24.2 21.7 - 27.7 % GB 5009.44 水分 1.3 <= 4.5 % GB 5009.3 菌落总数 130 <= 10,000 CFU/g GB 4789.2,CFU/g 大肠菌群 <3.0 <= 15.0 CFU/g GB 4789.3,MPN/g 沙门氏菌 阴性 阴性 /25g GB 4789.4, /25g"
+      ]
+    },
+    {
+      "question": "肉味食品用香精XZ8420X 20223724的盐分（NaCl）检测结果是多少？",
+      "ground_truth": "盐分（NaCl）的检测结果为24.2%。",
+      "relevant_docs": [
+        "20223724.pdf"
+      ],
+      "relevant_chunks": [
+        "盐分（NaCl） 24.2 21.7 - 27.7 % GB 5009.44"
+      ]
+    },
+    {
+      "question": "肉味食品用香精XZ8420X 20223724的水分检测是否符合标准要求？",
+      "ground_truth": "水分检测结果为1.3%，符合<=4.5%的标准要求。",
+      "relevant_docs": [
+        "20223724.pdf"
+      ],
+      "relevant_chunks": [
+        "水分 1.3 <= 4.5 % GB 5009.3"
+      ]
+    },
+    {
+      "question": "泡椒香精产品检测了哪些项目？",
+      "ground_truth": "检测项目包括色泽和状态、香气/香味、折光指数、相对密度（20/4°C、20/20°C、25/25°C）、过氧化值（meq/kg和g/100g）。",
+      "relevant_docs": [
+        "20242311.pdf"
+      ],
+      "relevant_chunks": [
+        "检测项目 检测结果 技术规格 单位\n色泽和状态(感观目测) 符合同一型号的对照品 \n香气/香味(感观品评) 符合同一型号的对照品 \n折光指数, 20°C (GB/T 14454.4) 1.4420 1.4320 -1.4520 #\n相对密度, 20/4°C (GB/T 11540) 0.9504 0.9430 -0.9630 #\n相对密度, 20/20°C (GB/T 11540) 0.9520 0.9447 -0.9647 #\n相对密度, 25/25°C (GB/T 11540) 0.9490 0.9417 -0.9617 #\n过氧化值, meq/kg 0.0 <= 39.4 meq/kg\n过氧化值(g/100g) 0.00 <= 0.50 %"
+      ]
+    },
+    {
+      "question": "泡椒香精的折光指数在20°C下的检测结果是多少？",
+      "ground_truth": "泡椒香精的折光指数在20°C下的检测结果为1.4420。",
+      "relevant_docs": [
+        "20242311.pdf"
+      ],
+      "relevant_chunks": [
+        "折光指数, 20°C (GB/T 14454.4) 1.4420 1.4320 -1.4520 #"
+      ]
+    },
+    {
+      "question": "泡椒香精的过氧化值（meq/kg）是否符合技术规格要求？",
+      "ground_truth": "泡椒香精的过氧化值（meq/kg）为0.0，符合<= 39.4 meq/kg的技术规格要求。",
+      "relevant_docs": [
+        "20242311.pdf"
+      ],
+      "relevant_chunks": [
+        "过氧化值, meq/kg 0.0 <= 39.4 meq/kg"
+      ]
+    },
+    {
+      "question": "在产品OLEORESIN PAPRIKA 50,000 CU W/S DF的检测中，检测了哪些微生物项目？",
+      "ground_truth": "检测的微生物项目包括：总需氧菌数（T.P.C）、总酵母菌和霉菌数（T.Y.M.C）、大肠杆菌（E.Coli）和沙门氏菌（Salmonella）。",
+      "relevant_docs": [
+        "20148489.pdf"
+      ],
+      "relevant_chunks": [
+        "Microbiology\n1 T. P. C <10 cfu/g BAM,online January,2001 Chapter-3\n2 T. Y. M. C <10 cfu/g BAM, online, April, 2001 Chapter - 18\n3 E.Coli <3 mpn/g BAM, online, October, 2020 Chapter - 4\n4 Salmonella Absent in 25g BAM, online, May 2024 Chapter - 5"
+      ]
+    },
+    {
+      "question": "产品OLEORESIN PAPRIKA 50,000 CU W/S DF的ASTA颜色检测结果是多少？",
+      "ground_truth": "ASTA颜色检测结果为1255 ASTACU。",
+      "relevant_docs": [
+        "20148489.pdf"
+      ],
+      "relevant_chunks": [
+        "Chemical Characteristics\n1 ASTA Colour 1255 ASTACU ASTA 20.1, IVth Edition 1997"
+      ]
+    },
+    {
+      "question": "在产品OLEORESIN PAPRIKA 50,000 CU W/S DF的检测中，总黄曲霉毒素是否符合标准要求？",
+      "ground_truth": "总黄曲霉毒素检测结果为<0.5 μg/kg，符合ASTA 24.2, 1997 Edition标准要求。",
+      "relevant_docs": [
+        "20148489.pdf"
+      ],
+      "relevant_chunks": [
+        "Mycotoxin\n2 Aflatoxin Total <0.5 μg/kg ASTA 24.2, 1997 Edition"
+      ]
+    },
+    {
+      "question": "在批号为10810242的产品中检测了哪些项目？",
+      "ground_truth": "检测项目包括感官评估、香气、外观、氯化钠含量、含水量、大肠菌群和菌落总数。",
+      "relevant_docs": [
+        "20293193.pdf"
+      ],
+      "relevant_chunks": [
+        "方法代码 检测项目 结果 最低限 最高限",
+        "0605 感官评估 0.1% 测试溶液 试验介质水中的香味",
+        "0223 香气、纸张上气味",
+        "0864 样品瓶中目测 外观 颜色 样品瓶中的颜色/外观",
+        "0025 含量，以氯化钠计",
+        "0031 含水量",
+        "MPN/克 大肠菌群",
+        "1030 GB 4789.2 菌落总数测定"
+      ]
+    },
+    {
+      "question": "批号10810243的猪肉香精中氯化钠含量的检测结果是多少？",
+      "ground_truth": "氯化钠含量的检测结果为27.90%。",
+      "relevant_docs": [
+        "20293193.pdf"
+      ],
+      "relevant_chunks": [
+        "0025 银量滴定法 0,1mol/l 硝酸银 含量，以氯化钠计 分子量=58.44 % 27.90 25.30 29.30"
+      ]
+    },
+    {
+      "question": "批号10810242的含水量检测结果是否符合标准要求？",
+      "ground_truth": "是的，含水量检测结果为4.50%，低于最高限10.00%，符合标准要求。",
+      "relevant_docs": [
+        "20293193.pdf"
+      ],
+      "relevant_chunks": [
+        "0031 卡尔费休滴定 室温，自动进样器 含水量 % 4.50 10.00"
+      ]
+    },
+    {
+      "question": "在爆香大蒜油的检测报告中检测了哪些项目？",
+      "ground_truth": "检测项目包括色状、香气、味觉、酸值、过氧化值、砷（以As计）、重金属（以Pb计）、黄曲霉毒素。",
+      "relevant_docs": [
+        "21028164.pdf"
+      ],
+      "relevant_chunks": [
+        "仲景食品股份有限公司检验报告\n订单编号：61715 报告书编号：2025010001",
+        "检验项目",
+        "标准规定",
+        "检验结果"
+      ]
+    },
+    {
+      "question": "爆香大蒜油的酸值检测结果是多少？",
+      "ground_truth": "爆香大蒜油的酸值检测结果为0.15 mg KOH/g。",
+      "relevant_docs": [
+        "21028164.pdf"
+      ],
+      "relevant_chunks": [
+        "酸值, mg KOH/g",
+        "≤15",
+        "0.15"
+      ]
+    },
+    {
+      "question": "爆香大蒜油的黄曲霉毒素项目是否符合标准要求？",
+      "ground_truth": "符合标准要求，黄曲霉毒素检测结果为未检出，低于标准规定的≤5 μg/Kg。",
+      "relevant_docs": [
+        "21028164.pdf"
+      ],
+      "relevant_chunks": [
+        "黄曲霉毒素,μg/Kg",
+        "≤5",
+        "未检出"
+      ]
+    },
+    {
+      "question": "在焦糖色(亚硫酸铵法)产品中检测了哪些理化项目？",
+      "ground_truth": "检测的理化项目包括吸光度(610nm)、水分、耐光性(日光下)、pH(1%水溶液)、细度(100目)、氨氮(以N计)、二氧化硫(以SO2计)、总氮(以N计)、总硫(以S计)、4-甲基咪唑、总砷(以As计)、铅(Pb)和总汞(以Hg计)。",
+      "relevant_docs": [
+        "21007111.pdf"
+      ],
+      "relevant_chunks": [
+        "理化分析: 项目 技术要求 检测结果 吸光度Â(610nm) 0.380~0.480 0.430 水分 (%) ≤4.0 3.18 耐光性(日光下) (h) ≥6 合格 pH(1%水溶液) 4.5~5.5 5.03 细度(100目) (%) ≥90.0 合格 *氨氮(以N计) (w/%) ≤0.6 合格 *二氧化硫(以SO2计) (w/%) ≤0.2 合格 *总氮(以N计) (w/%) ≤3.3 合格 *总硫(以S计) (w/%) ≤3.5 合格 *4-甲基咪唑 (mg/kg) ≤200 合格 总砷(以As计) (mg/kg) ≤1.0 合格 铅(Pb) (mg/kg) ≤2.0 合格 总汞(以Hg计) (mg/kg) ≤0.1 合格"
+      ]
+    },
+    {
+      "question": "焦糖色(亚硫酸铵法)产品的水分检测结果是多少？",
+      "ground_truth": "水分的检测结果为3.18%。",
+      "relevant_docs": [
+        "21007111.pdf"
+      ],
+      "relevant_chunks": [
+        "理化分析: 项目 技术要求 检测结果 水分 (%) ≤4.0 3.18"
+      ]
+    },
+    {
+      "question": "在焦糖色(亚硫酸铵法)产品中，pH(1%水溶液)是否符合标准要求？",
+      "ground_truth": "符合标准要求，检测结果为5.03，在标准范围4.5~5.5之间。",
+      "relevant_docs": [
+        "21007111.pdf"
+      ],
+      "relevant_chunks": [
+        "理化分析: 项目 技术要求 检测结果 pH(1%水溶液) 4.5~5.5 5.03"
+      ]
+    },
+    {
+      "question": "麦芽糊精产品检测了哪些项目？",
+      "ground_truth": "检测项目包括碘试、二氧化硫、硫酸灰分、澄清度(40%)、松散密度、DE、酶活性、颜色、水分、pH、气味和滋味、外观、大肠菌群、菌落总数、酵母菌、霉菌。",
+      "relevant_docs": [
+        "21188293.pdf"
+      ],
+      "relevant_chunks": [
+        "检测项目Items 结果Results 最小值Min 最大值Max 单位Unit 碘试 Apparent starch PASS/合格 PASS/合格 二氧化硫 Sulfur dioxide 1.1 0 10 mg/kg 硫酸灰分 Sulphated Ash 0.09 0 0.6 % 澄清度(40%) Clarity(40%) 97.8 95 100 % 松散密度 Loose Density 521 480 550 g/L DE 18.0 16 20 %db 酶活性 Enzyme Activity Negative阴性 性 颜色 Color 0.76 2 水分 Moisture 4.40 0 6 % pH (50% w/w cb) 5.0 4.5 6.5 气味和滋味 Odor and Taste 2.5 1.0 4.0 Score 外观 Appearance 1 1 2 Rate 大肠菌群 Coliforms <30 30 MPN/100g 菌落总数 Aerobic plate count <10 0 1000 CFU/g 酵母菌 Yeast <10 0 100 CFU/g 霉菌 Mould <10 0 100 CFU/g"
+      ]
+    },
+    {
+      "question": "麦芽糊精产品的大肠菌群检测结果是多少？",
+      "ground_truth": "大肠菌群检测结果为<30 MPN/100g。",
+      "relevant_docs": [
+        "21188293.pdf"
+      ],
+      "relevant_chunks": [
+        "大肠菌群 Coliforms <30 30 MPN/100g"
+      ]
+    },
+    {
+      "question": "麦芽糊精产品的澄清度(40%)是否符合标准要求？",
+      "ground_truth": "澄清度(40%)的检测结果是97.8%，符合标准要求（95%至100%）。",
+      "relevant_docs": [
+        "21188293.pdf"
+      ],
+      "relevant_chunks": [
+        "澄清度(40%) Clarity(40%) 97.8 95 100 %"
+      ]
+    },
+    {
+      "question": "产品编号21156727的检测项目有哪些？",
+      "ground_truth": "产品编号21156727的检测项目包括感官评估、香气、外观、密度（相对密度D20/4）、折光指数（n20/D和n25/D）以及闪点。",
+      "relevant_docs": [
+        "21156727.pdf"
+      ],
+      "relevant_chunks": [
+        "检测项目 结果 限 限\n______________________________________________________________________\n0605 感官评估 150 ppm, 预混合于水中\n试验介质水中的香味 参照标样\n1) 与标样一致\n0223 香气，闻香条 pure\n气味 参照标样\n1) 与标样一致\n0864 样品瓶中目测\n外观 1) 澄清至混浊液体\n颜色 1) 浅黄色至黄色\n样品瓶中的颜色/外观 通过测试\n1) 通过测试\n0001 密度（摆动式U型管)\n相对密度，D20/4 0.9132 0.9030 0.9230\n0002 折光测定法\n折光指数，n20/D 1.4665 1.4560 1.4760\n折光指数，n25/D 1.4649 1.4544 1.4744",
+        "_______________________________________________________________________\n方法 最低 最高\n代码 检测项目 结果 限 限\n______________________________________________________________________\n______________________________________________________________________\n仅供参考\n闪点°C > 100\n闪点°F > 212"
+      ]
+    },
+    {
+      "question": "产品编号21156727的相对密度D20/4的检测结果是多少？",
+      "ground_truth": "产品编号21156727的相对密度D20/4的检测结果是0.9132。",
+      "relevant_docs": [
+        "21156727.pdf"
+      ],
+      "relevant_chunks": [
+        "0001 密度（摆动式U型管)\n相对密度，D20/4 0.9132 0.9030 0.9230"
+      ]
+    },
+    {
+      "question": "产品编号21156727的折光指数n20/D是否符合标准要求？",
+      "ground_truth": "产品编号21156727的折光指数n20/D符合标准要求，检测结果为1.4665，在标准范围1.4560至1.4760之间。",
+      "relevant_docs": [
+        "21156727.pdf"
+      ],
+      "relevant_chunks": [
+        "0002 折光测定法\n折光指数，n20/D 1.4665 1.4560 1.4760"
+      ]
+    },
+    {
+      "question": "在食用玉米淀粉的检测中，检测了哪些项目？",
+      "ground_truth": "检测项目包括外观、气味、水分、蛋白质(干基)、灰分(干基)、二氧化硫、细度、白度、斑点、pH值、菌落总数、霉菌和酵母菌、大肠菌群。",
+      "relevant_docs": [
+        "21188296.pdf"
+      ],
+      "relevant_chunks": [
+        "项目名称 | 单位 | 标准要求 | 检验结果",
+        "外观, 气味, 水分, 蛋白质(干基), 灰分(干基), 二氧化硫, 细度, 白度, 斑点, pH值, 菌落总数, 霉菌和酵母菌, 大肠菌群"
+      ]
+    },
+    {
+      "question": "食用玉米淀粉的水分检测结果是多少？",
+      "ground_truth": "水分的检测结果为13.5%。",
+      "relevant_docs": [
+        "21188296.pdf"
+      ],
+      "relevant_chunks": [
+        "水分 | % | ≤14.0 | 13.5"
+      ]
+    },
+    {
+      "question": "食用玉米淀粉的细度是否符合标准要求？",
+      "ground_truth": "细度符合标准要求，标准要求≥99.0%，检测结果为99.5%。",
+      "relevant_docs": [
+        "21188296.pdf"
+      ],
+      "relevant_chunks": [
+        "细度 | % | ≥99.0 | 99.5"
+      ]
+    },
+    {
+      "question": "莎妮雅专用油脂（成品棕榈油）检测了哪些质量指标？",
+      "ground_truth": "莎妮雅专用油脂检测的质量指标包括：透明度、气味与滋味、酸值、游离脂肪酸、色泽（黄和红）、过氧化值、熔点、水分及挥发物、不溶性杂质、溶剂残留量、碘值、脂肪酸组成（C12:0月桂酸）。",
+      "relevant_docs": [
+        "21188297.pdf"
+      ],
+      "relevant_chunks": [
+        "透明度 50℃澄清、透明 合格",
+        "气味、滋味 合格",
+        "酸值（以氢氧化钾计）/（mg/g） ≤ 0.20 0.050 合格",
+        "* 游离脂肪酸/% ≤ 0.1 0.023 合格",
+        "色泽（罗维朋比色槽133.4mm） ≤ 黄30 黄14 合格；红3.0 红1.4 合格",
+        "过氧化值/（mmol/kg） ≤ 0.5 0.10 合格",
+        "熔点/℃ 33.0-39.0 36.9 合格",
+        "水分及挥发物/% ≤ 0.05 0.01 合格",
+        "不溶性杂质/％ ≤ 0.05 0.01 合格",
+        "溶剂残留量/(mg/kg) ≤ 20 未检出 合格",
+        "碘值/（g/100g） 50.0-55.0 52.36 合格",
+        "C12：0月桂酸（%） ≤ 0.5 0.187 合格"
+      ]
+    },
+    {
+      "question": "莎妮雅专用油脂的过氧化值检测结果是多少？",
+      "ground_truth": "莎妮雅专用油脂的过氧化值检测结果为0.10 mmol/kg。",
+      "relevant_docs": [
+        "21188297.pdf"
+      ],
+      "relevant_chunks": [
+        "过氧化值/（mmol/kg） ≤ 0.5 0.10 合格"
+      ]
+    },
+    {
+      "question": "莎妮雅专用油脂的游离脂肪酸是否符合标准要求？",
+      "ground_truth": "莎妮雅专用油脂的游离脂肪酸符合标准要求，检测结果为0.023%，低于标准要求的≤0.1%。",
+      "relevant_docs": [
+        "21188297.pdf"
+      ],
+      "relevant_chunks": [
+        "* 游离脂肪酸/% ≤ 0.1 0.023 合格"
+      ]
+    },
+    {
+      "question": "三氯蔗糖产品在COA中检测了哪些项目？",
+      "ground_truth": "检测项目包括：鉴别、感官（外观、组织状态、气味、杂质）、含量（以干基计）、水分、比旋光度、灼烧残渣、水解产物、相关物质、甲醇、铅、菌落总数、霉菌、酵母、大肠菌群。",
+      "relevant_docs": [
+        "32899442.pdf"
+      ],
+      "relevant_chunks": [
+        "序号",
+        "分析项目",
+        "质量指标",
+        "检测方法",
+        "实测结果"
+      ]
+    },
+    {
+      "question": "三氯蔗糖的水分检测结果是多少？",
+      "ground_truth": "三氯蔗糖的水分检测结果为0.10%。",
+      "relevant_docs": [
+        "32899442.pdf"
+      ],
+      "relevant_chunks": [
+        "水分，%",
+        "≤2.0",
+        "GB/T 6283",
+        "0.10"
+      ]
+    },
+    {
+      "question": "三氯蔗糖的菌落总数是否符合标准要求？",
+      "ground_truth": "是的，菌落总数的检测结果为<10 CFU/g，符合标准要求（≤250 CFU/g）。",
+      "relevant_docs": [
+        "32899442.pdf"
+      ],
+      "relevant_chunks": [
+        "菌落总数,CFU/g",
+        "≤250",
+        "GB 4789.2",
+        "<10"
+      ]
+    },
+    {
+      "question": "在姜粉(蒸汽杀菌)产品中检测了哪些项目？",
+      "ground_truth": "检测的项目包括色泽状态、气滋味、磨碎细度、净含量、水分、灰分、酸不溶性灰分、精油、菌落总数、大肠菌群、霉菌和酵母菌。",
+      "relevant_docs": [
+        "32236484.pdf"
+      ],
+      "relevant_chunks": [
+        "分析项目",
+        "项目,检测方法,实测",
+        "色泽状态,GB/T 15691,浅黄色粉体",
+        "气滋味,GB/T 15691,姜固有的气滋味",
+        "磨碎细度,GB/T 12729.4,R20序列400μm孔径编制网分样筛筛上物≤2.5%(40目通过率96.3%)",
+        "项目,单位,检测方法,指标,实测",
+        "净含量,kg,JJF 1070,>5.00,5.01",
+        "水分,%,GB 5009.3(第三法),≤12.00,9.72",
+        "灰分,%,GB 5009.4(第一法),≤7.00,4.19",
+        "酸不溶性灰分,%,GB 5009.4(第三法),≤1.00,0.32",
+        "精油,%,GB/T 17527,≥1.5,1.64",
+        "菌落总数,CFU/g,GB 4789.2,≤50000,1500",
+        "大肠菌群,MPN/100g,GB/T 4789.3-2003,≤150,<30",
+        "霉菌,CFU/g,GB 4789.15,≤100,<10",
+        "酵母菌,CFU/g,GB 4789.15,≤100,<10"
+      ]
+    },
+    {
+      "question": "姜粉(蒸汽杀菌)产品的水分项目的检测结果是多少？",
+      "ground_truth": "姜粉(蒸汽杀菌)产品的水分检测结果为9.72%。",
+      "relevant_docs": [
+        "32236484.pdf"
+      ],
+      "relevant_chunks": [
+        "水分,%,GB 5009.3(第三法),≤12.00,9.72"
+      ]
+    },
+    {
+      "question": "姜粉(蒸汽杀菌)产品的菌落总数是否符合标准要求？",
+      "ground_truth": "符合标准要求，菌落总数的检测结果为1500 CFU/g，低于标准限值50000 CFU/g。",
+      "relevant_docs": [
+        "32236484.pdf"
+      ],
+      "relevant_chunks": [
+        "菌落总数,CFU/g,GB 4789.2,≤50000,1500"
+      ]
+    },
+    {
+      "question": "鸡肉粉调味料的检测项目包括哪些？",
+      "ground_truth": "鸡肉粉调味料的检测项目包括色泽、组织状态、滋味、气味、杂质、在水中的分散性、水分、脂肪、蛋白质、过氧化值、细菌总数、大肠菌群、霉菌和酵母。",
+      "relevant_docs": [
+        "32236625.pdf"
+      ],
+      "relevant_chunks": [
+        "检 测 项 目 单 位 指 标 检测结果\n色 泽 / 淡黄色至棕黄色、呈均匀状态 合 格\n感 组织状态 / 疏松粉末状 合 格\n官 滋 味 / 具有鸡汁的鲜甜味 合 格\n气 味 / 具有鸡肉香、无异味 合 格\n标\n杂 质 / 无肉眼可见杂威 合 格\n在水中的分散性 / 可在沸水中分散、允许少量沉淀 合 格\n理 水 分 % ≤(4.5\n1.96\n化 脂 肪 % 42.0~48,o 42.20\n指 蛋白质 % ≥40.0 43.05\n标\n过氧化值 meq/kg ≤(6.0\n0,19\n微\n生 细菌总数 cfu/g ≤5.o× 1o3 290\n物 大肠菌群 MPN/100g 30\n指 ≤ 榆 λ ≤βQ\n标 霉菌和酵母\ncfu/g 10"
+      ]
+    },
+    {
+      "question": "鸡肉粉调味料的蛋白质检测结果是多少？",
+      "ground_truth": "鸡肉粉调味料的蛋白质检测结果是43.05%。",
+      "relevant_docs": [
+        "32236625.pdf"
+      ],
+      "relevant_chunks": [
+        "指 蛋白质 % ≥40.0 43.05\n标"
+      ]
+    },
+    {
+      "question": "鸡肉粉调味料的水分检测结果是否符合标准要求？",
+      "ground_truth": "鸡肉粉调味料的水分检测结果为1.96%，符合标准要求（≤4.5%）。",
+      "relevant_docs": [
+        "32236625.pdf"
+      ],
+      "relevant_chunks": [
+        "理 水 分 % ≤(4.5\n1.96\n化"
+      ]
+    },
+    {
+      "question": "在韩伟食品的全蛋粉产品中检测了哪些项目？",
+      "ground_truth": "检测项目包括：色泽、滋气味、组织形态、杂质、水分、蛋白质、脂肪、PH值、净含量、菌落总数、大肠菌群、霉菌、酵母菌和沙门氏菌。",
+      "relevant_docs": [
+        "32895260.pdf"
+      ],
+      "relevant_chunks": [
+        "检验项目 标准要求 检验结果 判定\nInspection items standard requirements Inspection results Pass/qualified\n色泽 呈黄色 黄色 合格\ncolor Yellow Yellow Qualified\n具有本品的正常气味，无异味 正常无异味\n滋气味 合格\nhas its specific taste and smell, Normal，Without strange\ntaste and smell Qualified\nwithout strange smell smell\n呈粉末状或易松散之块状\n组织形态 粉末状 合格\nLoose powder or vulnerable to\nOrganization form powder Qualified\nmassive\n杂质 无肉眼可见外来杂质 无肉眼可见外来杂质 合格\nimpurities No extraneous impurities No extraneous impurities Qualified\n水分，% 合格\n≤5.0 3.64\nMoisture Qualified\n蛋白质，% 合格\n≥45.0 45.5\nProtein Qualified\n脂肪（%）（三氯甲烷法） 合格\n≥39.0 39.2\nFat(Chloroform Method) Qualified\nPH值 合格\n7.5-9.5 8.54\nPH Qualified\n净含量，kg/袋 合格\n≥20.00 20.00\nNet content Qualified\n菌落总数（CFU/g） 1900、2200、1200、 合格\nn=5、c=2、m=1×104、M=－\nTotal number of colonies 1500、1600 Qualified\n大肠菌群（CFU/g） ＜10、＜10、＜10、 合格\nn=5、c=2、m=10、M=100\nIntestinal flora ＜10、＜10 Qualified\n霉菌（CFU/g） 合格\n≤10 ＜10\nMoulds Qualified\n酵母菌（CFU/g） 合格\n≤10\nYeasts ＜10 Qualified\n沙门氏菌（/25g)\n不得检出 未检出\n合格\nSalmonella Qualified"
+      ]
+    },
+    {
+      "question": "全蛋粉产品的蛋白质检测结果是多少？",
+      "ground_truth": "全蛋粉的蛋白质检测结果为45.5%。",
+      "relevant_docs": [
+        "32895260.pdf"
+      ],
+      "relevant_chunks": [
+        "蛋白质，% 合格\n≥45.0 45.5\nProtein Qualified"
+      ]
+    },
+    {
+      "question": "全蛋粉的PH值是否符合标准要求？",
+      "ground_truth": "符合标准要求，PH值标准要求为7.5-9.5，检测结果为8.54。",
+      "relevant_docs": [
+        "32895260.pdf"
+      ],
+      "relevant_chunks": [
+        "PH值 合格\n7.5-9.5 8.54\nPH Qualified"
+      ]
+    },
+    {
+      "question": "在泡野山椒细辣椒酱的检测中，检测了哪些项目？",
+      "ground_truth": "检测了感官、颗粒大小、PH、盐份、水份、总酸(以乳酸计)、亚硝酸盐、菌落总数、需氧芽孢数、酵母菌、霉菌、大肠菌群等项目。",
+      "relevant_docs": [
+        "32961521.pdf"
+      ],
+      "relevant_chunks": [
+        "项目",
+        "感官",
+        "颗粒大小20目筛网100%通过",
+        "PHg/100g",
+        "盐份g/100g",
+        "水份g/100g",
+        "总酸(以乳酸计)g/100g",
+        "亚硝酸盐mg/kg",
+        "菌落总数cfu/g",
+        "需氧芽孢数cfu/g",
+        "酵母菌cfu/g",
+        "霉菌cfu/g",
+        "大肠菌群cfu/g"
+      ]
+    },
+    {
+      "question": "泡野山椒细辣椒酱的盐份项目的检测结果是多少？",
+      "ground_truth": "盐份项目的检测结果为13-16g/100g。",
+      "relevant_docs": [
+        "32961521.pdf"
+      ],
+      "relevant_chunks": [
+        "盐份g/100g",
+        "13-16",
+        "检测值",
+        "合格"
+      ]
+    },
+    {
+      "question": "泡野山椒细辣椒酱的菌落总数是否符合标准要求？",
+      "ground_truth": "菌落总数符合标准要求，检测结果为20cfu/g，标准值为<10000cfu/g。",
+      "relevant_docs": [
+        "32961521.pdf"
+      ],
+      "relevant_chunks": [
+        "菌落总数cfu/g",
+        "<10000",
+        "20",
+        "合格"
+      ]
+    },
+    {
+      "question": "格林斯德 GUAR 250-C的检测项目包括哪些？",
+      "ground_truth": "检测项目包括气味、外观、粘度、干燥减量和灰分。",
+      "relevant_docs": [
+        "63014002.pdf"
+      ],
+      "relevant_chunks": [
+        "测__试__项__目_____________________________结__果__________检__测__指__标___________单_位_____________________________________"
+      ]
+    },
+    {
+      "question": "格林斯德 GUAR 250-C的粘度检测结果是多少？",
+      "ground_truth": "粘度的检测结果是4910 mPa sec。",
+      "relevant_docs": [
+        "63014002.pdf"
+      ],
+      "relevant_chunks": [
+        "粘 度 4910 >= 4100 mPa sec"
+      ]
+    },
+    {
+      "question": "格林斯德 GUAR 250-C的干燥减量是否符合标准要求？",
+      "ground_truth": "干燥减量的结果为6.2%，符合标准要求（<= 13.0%）。",
+      "relevant_docs": [
+        "63014002.pdf"
+      ],
+      "relevant_chunks": [
+        "干燥减量 6.2 <= 13.0 %"
+      ]
+    },
+    {
+      "question": "在42°Be'葡萄糖（玉米糖浆）产品中检测了哪些项目？",
+      "ground_truth": "检测项目包括色泽、状态、气味、滋味、色度(RBU)、固形物(%)、DE(%)、pH、透光率(%)、硫酸灰分(g/100g)、熬糖温度(℃)、菌落总数(CFU/g)、大肠菌群(MPN/100g)、大肠杆菌(CFU/g)、霉菌和酵母菌(CFU/g)。",
+      "relevant_docs": [
+        "63013004.pdf"
+      ],
+      "relevant_chunks": [
+        "检测项目 Test Items",
+        "色泽 color",
+        "状态 state",
+        "气味 Smell",
+        "滋味 taste",
+        "色度(RBU) Chroma",
+        "固形物(%) Dry Substance",
+        "DE(%) Dextrose Equivalent",
+        "pH",
+        "透光率(%) Transparency",
+        "硫酸灰分(g/100g) Sulphate Ash",
+        "熬糖温度(℃) Temperature of Simmering Sugar",
+        "菌落总数(CFU/g) Total Plate Count",
+        "大肠菌群(MPN/100g) Coliform Group",
+        "大肠杆菌(CFU/g) Escherichia coli",
+        "霉菌、酵母菌(CFU/g) Yeast & Mold"
+      ]
+    },
+    {
+      "question": "42°Be'葡萄糖（玉米糖浆）的菌落总数(CFU/g)检测结果是多少？",
+      "ground_truth": "菌落总数(CFU/g)的检测结果为<10 CFU/g，且符合标准≤1000 CFU/g。",
+      "relevant_docs": [
+        "63013004.pdf"
+      ],
+      "relevant_chunks": [
+        "菌落总数(CFU/g) Total Plate Count",
+        "≤1000",
+        "<10",
+        "合格"
+      ]
+    },
+    {
+      "question": "42°Be'葡萄糖（玉米糖浆）的色度(RBU)是否符合标准要求？",
+      "ground_truth": "色度(RBU)的检测结果为18.7，符合标准≤50，因此符合要求。",
+      "relevant_docs": [
+        "63013004.pdf"
+      ],
+      "relevant_chunks": [
+        "色度(RBU) Chroma",
+        "≤50",
+        "18.7",
+        "合格"
+      ]
+    },
+    {
+      "question": "在T-PT8-WS\\10Kg产品中检测了哪些项目？",
+      "ground_truth": "检测项目包括：Form, Curcumin含量, Aerobic Viable Count, Yeasts and Molds, Enterobacteriaceae, Aerobic mesophilic spores, Sulphite red. bacteria, spores, Salmonella, Listeria, E. coli, S. aureus, Arsenic, Cadmium, Lead和Mercury。",
+      "relevant_docs": [
+        "63124877.pdf"
+      ],
+      "relevant_chunks": [
+        "Per batch:\nForm --- Viscous liquid Conforms\nCurcumin % 7.6-8.4 7.7\nPer monitoring program:\nAerobic Viable Count, 30°C cfu/g <=1000 Conforms\nYeasts and Molds cfu/g <=100 Conforms\nEnterobacteriaceae cfu/g <=10 Conforms\nAerobic mesophilic spores cfu/g <=100 Conforms\nSulphite red. bacteria, spores cfu/g <=10 Conforms\nSalmonella --- Absent in 25g Conforms\nListeria --- Absent in 25g Conforms\nE. coli --- Absent in 1g Conforms\nS. aureus --- Absent in 1g Conforms\nArsenic ppm <3 Conforms\nCadmium ppm <1 Conforms\nLead ppm <2 Conforms\nMercury ppm <1 Conforms"
+      ]
+    },
+    {
+      "question": "T-PT8-WS\\10Kg产品的Curcumin项目的检测结果是多少？",
+      "ground_truth": "Curcumin的检测结果是7.7%。",
+      "relevant_docs": [
+        "63124877.pdf"
+      ],
+      "relevant_chunks": [
+        "Curcumin % 7.6-8.4 7.7"
+      ]
+    },
+    {
+      "question": "Aerobic Viable Count项目是否符合标准要求？",
+      "ground_truth": "符合标准要求，检测结果为Conforms。",
+      "relevant_docs": [
+        "63124877.pdf"
+      ],
+      "relevant_chunks": [
+        "Aerobic Viable Count, 30°C cfu/g <=1000 Conforms"
+      ]
+    },
+    {
+      "question": "在10Kg酶解蛋黄粉的检测中，检测了哪些项目？",
+      "ground_truth": "检测项目包括：成品外观、包装、组织形态、色泽、气味与滋味、水分、菌落总数、大肠菌群和净含量。",
+      "relevant_docs": [
+        "62733929.pdf"
+      ],
+      "relevant_chunks": [
+        "检验项目 标准值 检验结果 检测方法\nTesting Item Standards Testing Result Method\n成品外观平整，洁净，封口无明显缝隙或重叠\n包装 符合 目测\n，标识信息准确。\n粉末状，结构细腻、均匀、润滑，无正常视力\n组织形态 符合 目测\n可见的外来杂质。\n色泽 淡黄色，色泽均匀。 符合 目测\n气味与滋味 具有浓郁的蛋黄特有的风味和滋味。 符合 目测，鼻嗅，口尝\n水分 g/100g ≤7.0 3.83 GB 5009.3-2016 第一法\n菌落总数 CFU/g n=5,c=0,m＜10000 70/90/100/50/60 GB 4789.2-2022\n大肠菌群 CFU/g n=5,c=2,m=10,M=100 ＜10/＜10/＜10/＜10/＜10 GB 4789.3-2016 第二法\n净含量 kg 符合JJF1070 10.00 JJF 1070-2023"
+      ]
+    },
+    {
+      "question": "10Kg酶解蛋黄粉的水分检测结果是多少？",
+      "ground_truth": "水分检测结果为3.83 g/100g。",
+      "relevant_docs": [
+        "62733929.pdf"
+      ],
+      "relevant_chunks": [
+        "水分 g/100g ≤7.0 3.83 GB 5009.3-2016 第一法"
+      ]
+    },
+    {
+      "question": "菌落总数是否符合标准要求？",
+      "ground_truth": "菌落总数符合标准要求，标准值为n=5,c=0,m＜10000，检测结果为70/90/100/50/60。",
+      "relevant_docs": [
+        "62733929.pdf"
+      ],
+      "relevant_chunks": [
+        "菌落总数 CFU/g n=5,c=0,m＜10000 70/90/100/50/60 GB 4789.2-2022"
+      ]
+    },
+    {
+      "question": "在批号1180338的产品中检测了哪些项目？",
+      "ground_truth": "检测项目包括干燥减量、羟丙基含量、氯丙醇、20%（W/W）溶液的pH值、粗脂肪、蛋白质含量、二氧化硫、磷含量、总砷、铅、总汞、Brabender粘度最大值、BRABENDER粘度降低值、菌落总数、肠杆菌、酵母菌、霉菌、大肠埃希氏菌和沙门氏菌。",
+      "relevant_docs": [
+        "32902591.pdf"
+      ],
+      "relevant_chunks": [
+        "检测项目 标准范围 结果 单位 干燥减量 <= 13.0 12.6 % 羟丙基含量 （以干基计) <= 7.0 3.9 % 氯丙醇 <= 0.1 符合 mg/kg 20%（W/W）溶液的pH值 5.0 - 6.5 5.7 粗脂肪 <= 0.15 符合 %",
+        "检测项目 标准范围 结果 单位 蛋白质含量(N 6.25)原样 <= 0.35 0.18 % 二氧化硫 <= 10 2 mg/kg 磷含量（以干基计） <= 0.04 符合 % 总砷 <= 0.5 符合 mg/kg 铅 <= 0.2 符合 mg/kg 总汞 <= 0.1 符合 mg/kg Brabender粘度最大值或 92°C 650 - 850 770 UB BRABENDER 粘度 降低值（UB） <= 50 -40 UB",
+        "检测项目 标准范围 结果 单位 菌落总数 <= 5000 50 /g 肠杆菌 <= 100 < 10 /g 酵母菌 <= 250 < 10 /g 霉菌 <= 250 < 10 /g 大肠埃希氏菌,/1g 未检测到 未检测到 沙门氏菌, /25g 未检测到 符合"
+      ]
+    },
+    {
+      "question": "批号1180340的样品中，Brabender粘度最大值的检测结果是多少？",
+      "ground_truth": "批号1180340的Brabender粘度最大值检测结果为790 UB。",
+      "relevant_docs": [
+        "32902591.pdf"
+      ],
+      "relevant_chunks": [
+        "Brabender粘度最大值或 92°C 650 - 850 790 UB"
+      ]
+    },
+    {
+      "question": "批号1180338的样品中，菌落总数是否符合标准要求？",
+      "ground_truth": "符合标准要求，菌落总数检测结果为50/g，标准范围<=5000。",
+      "relevant_docs": [
+        "32902591.pdf"
+      ],
+      "relevant_chunks": [
+        "菌落总数 <= 5000 50 /g"
+      ]
+    },
+    {
+      "question": "Potassium Sorbate Granular的检测项目有哪些？",
+      "ground_truth": "检测项目包括外观、气味、溶解性、热稳定性、鉴别试验、含量、碱度（以K2CO3计）、酸度（以山梨酸计）、氯化物（以Cl计）、硫酸盐（以SO4计）、重金属（以Pb计）、砷（以As计）、干燥失重、醛类（以甲醛计）、铅、汞和锌。",
+      "relevant_docs": [
+        "63917181.pdf"
+      ],
+      "relevant_chunks": [
+        "Item",
+        "Appearance",
+        "Odor",
+        "Solubility",
+        "Heat stability",
+        "Identification test",
+        "Assay",
+        "Alkalinity(as K2CO3)",
+        "Acidity (as Sorbic Acid)",
+        "Chloride(as Cl)",
+        "Sulfate(as SO4)",
+        "Heavy metals(as Pb)",
+        "Arsenic (as As)",
+        "Loss on drying",
+        "Aldehydes (as formaldehyde):",
+        "Lead",
+        "Mercury",
+        "Zinc"
+      ]
+    },
+    {
+      "question": "Potassium Sorbate Granular的pH检测结果是多少？",
+      "ground_truth": "pH的检测结果为10.1。",
+      "relevant_docs": [
+        "63917181.pdf"
+      ],
+      "relevant_chunks": [
+        "pH (10% aqueous solution)",
+        "10.1"
+      ]
+    },
+    {
+      "question": "Potassium Sorbate Granular的醛类（以甲醛计）检测是否符合标准要求？",
+      "ground_truth": "符合标准要求。醛类（以甲醛计）的标准要求为0.1%最大，检测结果为<0.1%。",
+      "relevant_docs": [
+        "63917181.pdf"
+      ],
+      "relevant_chunks": [
+        "Aldehydes (as formaldehyde):",
+        "0.1% max",
+        "0.2% <0.1%"
+      ]
+    },
+    {
+      "question": "XANTHAN GUM ZIBOXAN F80产品检测了哪些项目？",
+      "ground_truth": "检测项目包括粘度、pH值、水分、灰分、粒径、v1/v2、丙酮酸含量、重金属、铅、砷、微生物（总菌落数、酵母/霉菌、大肠杆菌、沙门氏菌）。",
+      "relevant_docs": [
+        "63371907.pdf"
+      ],
+      "relevant_chunks": [
+        "Specification Results\nLot No. 31250104\nQuantity(kgs) 6000\nManufacturer Date 2025-01-30\nExpiry Date 2027-01-29\nViscosity 1200--1600cps\n1% Solution in 1% KCL 1540\nPH 6.0-8.0 6.74\nMoisture max 13% 10.89%\nAsh max 16% 6.62%\nParticle Size 99.5% through 60 mesh(250micro) 100%\nmin 95% through 80mesh(180micro) 99.20%\nv1/v2 1.02--1.45 1.07\nPyruvic Acid 1.7-5.3% 5.30%\nHeavy Metal max 20ppm conform\nLead max 2ppm conform\nArsenic max 3ppm conform\nMicrobiological\nTotal Plate Count not more than 2000 cfu/g <50cfu/g\nYeast/Mould not more than 100 cfu/g conform\nE .coli absent /25g conform\nSalmonella absent /25g conform"
+      ]
+    },
+    {
+      "question": "XANTHAN GUM ZIBOXAN F80产品的丙酮酸项目的检测结果是多少？",
+      "ground_truth": "丙酮酸的检测结果是5.30%。",
+      "relevant_docs": [
+        "63371907.pdf"
+      ],
+      "relevant_chunks": [
+        "Pyruvic Acid 1.7-5.3% 5.30%"
+      ]
+    },
+    {
+      "question": "XANTHAN GUM ZIBOXAN F80产品的总菌落数是否符合标准要求？",
+      "ground_truth": "符合标准要求，总菌落数检测结果为<50 cfu/g，标准要求为不大于2000 cfu/g。",
+      "relevant_docs": [
+        "63371907.pdf"
+      ],
+      "relevant_chunks": [
+        "Total Plate Count not more than 2000 cfu/g <50cfu/g"
+      ]
+    },
+    {
+      "question": "AT-3525-OSS产品在批次1037458中检测了哪些项目？",
+      "ground_truth": "检测的项目包括Bixin、Curcumin、Aerobic Viable Count, 30°C、Yeasts and Molds、Enterobacteriaceae、Aerobic mesophilic spores、Sulphite red. bacteria, spores、Salmonella、Listeria、E. coli、S. aureus、Arsenic、Cadmium、Lead、Mercury以及多种非法食品染料如Sudans I-IV、Sudan Red B等。",
+      "relevant_docs": [
+        "63131157.pdf"
+      ],
+      "relevant_chunks": [
+        "Test Name Unit Specification Result\nPer batch:\nBixin % 3.3-3.7 3.4\nCurcumin % 2.3-2.7 2.5\nPer monitoring program:\nAerobic Viable Count, 30°C cfu/g <=1000 Conforms\nYeasts and Molds cfu/g <=100 Conforms\nEnterobacteriaceae cfu/g <=10 Conforms\nAerobic mesophilic spores cfu/g <=100 Conforms\nSulphite red. bacteria, spores cfu/g <=10 Conforms\nSalmonella --- Absent in 25g Conforms\nListeria --- Absent in 25g Conforms\nE. coli --- Absent in 1g Conforms\nS. aureus --- Absent in 1g Conforms\nArsenic ppm <3 Conforms\nCadmium ppm <1 Conforms\nLead ppm <2 Conforms\nMercury ppm <1 Conforms",
+        "Comments:\nIn accordance with our testing policy, the turmeric/paprika oleoresin used in the preparation of this material have been screened at\nan ISO 17025 accredited laboratory to confirm the absence of the following illegal food dyes\nSudans I-IV < 50 ppb (one by one)\nSudan Red B < 50 ppb\nSudan Orange G < 50 ppb\nButter Yellow < 50 ppb\nParared < 50 ppb\nSudan Red 7B < 200 ppb\nRhodamine B < 50 ppb\nOrange II < 300 ppb",
+        "Metanil yellow < 10 ppb\nToluidine Red < 10 ppb\nSudan Red G 10 ppb"
+      ]
+    },
+    {
+      "question": "AT-3525-OSS产品的Bixin项目的检测结果是多少？",
+      "ground_truth": "Bixin项目的检测结果是3.4%。",
+      "relevant_docs": [
+        "63131157.pdf"
+      ],
+      "relevant_chunks": [
+        "Test Name Unit Specification Result\nPer batch:\nBixin % 3.3-3.7 3.4"
+      ]
+    },
+    {
+      "question": "AT-3525-OSS产品的Arsenic项目的检测结果是否符合标准要求？",
+      "ground_truth": "Arsenic项目的检测结果为<3 ppm，符合标准要求。",
+      "relevant_docs": [
+        "63131157.pdf"
+      ],
+      "relevant_chunks": [
+        "Arsenic ppm <3 Conforms"
+      ]
+    },
+    {
+      "question": "在BC-1-WS-P\\5KG产品的COA中检测了哪些项目？",
+      "ground_truth": "检测的项目包括Beta Carotene、Aerobic Viable Count, 30°C、Yeasts and Molds、Enterobacteriaceae、Aerobic mesophilic spores、Sulphite red. bacteria, spores、Salmonella、Listeria、E. coli、S. aureus和Lead。",
+      "relevant_docs": [
+        "63917186.pdf"
+      ],
+      "relevant_chunks": [
+        "Test Name Unit Specification Result\nPer batch:\nBeta Carotene % 1.00-1.15 1.09\nPer monitoring program:\nAerobic Viable Count, 30°C cfu/g <=1000 Conforms\nYeasts and Molds cfu/g <=100 Conforms\nEnterobacteriaceae cfu/g <=10 Conforms\nAerobic mesophilic spores cfu/g <=500 Conforms\nSulphite red. bacteria, spores cfu/g <=10 Conforms\nSalmonella --- Absent in 25g Conforms\nListeria --- Absent in 25g Conforms\nE. coli --- Absent in 1g Conforms\nS. aureus --- Absent in 1g Conforms\nLead ppm <2 Conforms"
+      ]
+    },
+    {
+      "question": "BC-1-WS-P\\5KG产品的Beta Carotene项目的检测结果是多少？",
+      "ground_truth": "Beta Carotene的检测结果是1.09%。",
+      "relevant_docs": [
+        "63917186.pdf"
+      ],
+      "relevant_chunks": [
+        "Beta Carotene % 1.00-1.15 1.09"
+      ]
+    },
+    {
+      "question": "Aerobic Viable Count, 30°C项目是否符合标准要求？",
+      "ground_truth": "符合标准要求。",
+      "relevant_docs": [
+        "63917186.pdf"
+      ],
+      "relevant_chunks": [
+        "Aerobic Viable Count, 30°C cfu/g <=1000 Conforms"
+      ]
+    },
+    {
+      "question": "在该COA文档中，针对无水柠檬酸检测了哪些项目？",
+      "ground_truth": "检测了色泽、状态、鉴别试验、含量(%)、水分(%)、易炭化物、硫酸灰分(%)、氯化物(%)、硫酸盐(%)、草酸盐(%)、钙盐(%)、总砷(mg/kg)和铅(mg/kg)等项目。",
+      "relevant_docs": [
+        "63917183.pdf"
+      ],
+      "relevant_chunks": [
+        "检验项目 标准值 检验结果 色泽 无色或白色 符合试验 状态 结晶状颗粒或粉末，无臭，味极酸 符合试验 鉴别试验 符合试验 符合试验 含量(%) 99.5～100.5 99.8 水分(%) ≤0.5 0.15 易炭化物 ≤1.0 0.20 硫酸灰分(%) ≤0.05 0.02 氯化物(%) ≤0.005 ＜0.005 硫酸盐(%) ≤0.010 ＜0.010 草酸盐(%) ≤0.01 ＜0.01 钙盐(%) ≤0.02 ＜0.02 总砷(mg/kg) ≤1.0 ＜1.0 铅(mg/kg) ≤0.5 0.02"
+      ]
+    },
+    {
+      "question": "无水柠檬酸的水分检测结果是多少？",
+      "ground_truth": "水分检测结果为0.15%。",
+      "relevant_docs": [
+        "63917183.pdf"
+      ],
+      "relevant_chunks": [
+        "水分(%) ≤0.5 0.15"
+      ]
+    },
+    {
+      "question": "无水柠檬酸的铅含量是否符合标准要求？",
+      "ground_truth": "符合标准要求。铅含量标准值为≤0.5 mg/kg，检测结果为0.02 mg/kg。",
+      "relevant_docs": [
+        "63917183.pdf"
+      ],
+      "relevant_chunks": [
+        "铅(mg/kg) ≤0.5 0.02"
+      ]
+    },
+    {
+      "question": "姜粉(蒸汽杀菌)的检测项目有哪些？",
+      "ground_truth": "检测项目包括色泽状态、气滋味、磨碎细度、净含量、水分、灰分、酸不溶性灰分、精油、菌落总数、大肠菌群、霉菌和酵母菌。",
+      "relevant_docs": [
+        "63917191.pdf"
+      ],
+      "relevant_chunks": [
+        "分析项目\n项目, 检测方法, 实测\n色泽状态, GB/T 15691, 浅黄色粉体\n气滋味, GB/T 15691, 姜固有的气滋味\n磨碎细度, GB/T 12729.4, R20序列400μm孔径编制网分样筛筛上物≤2.5%(40目通过率95.92%)",
+        "项目, 单位, 检测方法, 指标, 实测\n净含量, kg, JJF 1070, >5.00, 5.01\n水分, %, GB 5009.3(第三法), ≤12.00, 8.80\n灰分, %, GB 5009.4(第一法), ≤7.00, 4.02\n酸不溶性灰分, %, GB 5009.4(第三法), ≤1.00, 0.17\n精油, %, GB/T 17527, ≥1.5, 1.64\n菌落总数, CFU/g, GB 4789.2, ≤50000, 80\n大肠菌群, MPN/100g, GB/T 4789.3-2003, ≤150, <30\n霉菌, CFU/g, GB 4789.15, ≤100, <10\n酵母菌, CFU/g, GB 4789.15, ≤100, <10"
+      ]
+    },
+    {
+      "question": "姜粉(蒸汽杀菌)的水分检测结果是多少？",
+      "ground_truth": "姜粉(蒸汽杀菌)的水分检测结果为8.80%。",
+      "relevant_docs": [
+        "63917191.pdf"
+      ],
+      "relevant_chunks": [
+        "水分, %, GB 5009.3(第三法), ≤12.00, 8.80"
+      ]
+    },
+    {
+      "question": "姜粉(蒸汽杀菌)的菌落总数是否符合标准要求？",
+      "ground_truth": "姜粉(蒸汽杀菌)的菌落总数检测结果为80 CFU/g，符合标准要求（≤50000 CFU/g）。",
+      "relevant_docs": [
+        "63917191.pdf"
+      ],
+      "relevant_chunks": [
+        "菌落总数, CFU/g, GB 4789.2, ≤50000, 80"
+      ]
+    },
+    {
+      "question": "食品添加剂磷酸检测了哪些项目？",
+      "ground_truth": "食品添加剂磷酸检测了以下项目：色泽、状态、磷酸(H₃PO₄)含量、氟化物(以F计)、易氧化物(以H₂PO₃计)、砷(As)、重金属(以Pb计)、氯化物(以Cl计)、硫酸盐(以CaSO₄计)、硝酸盐(以NaNO₃计)、挥发性酸(以CH₃COOH计)、汞(Hg)、镉(Cd)和铅(Pb)。",
+      "relevant_docs": [
+        "63917187.pdf"
+      ],
+      "relevant_chunks": [
+        "[\"序号\", \"指标名称\", \"单位\", \"指标范围\", \"实测值\", \"分析方法\"], [\"1\", \"色泽\", \"/\", \"无色透明\", \"无色透明\", \"GB 1886.15-2015\"], [\"2\", \"状态\", \"/\", \"稠状液体\", \"稠状液体\", \"GB 1886.15-2015\"], [\"3\", \"磷酸(H₃PO₄)含量\", \"%\", \"75.0-86.0\", \"85.2\", \"GB 1886.15-2015\"], [\"4\", \"氟化物(以F计)\", \"mg/kg\", \"≤10\", \"<2\", \"GB 1886.15-2015\"], [\"5\", \"易氧化物(以H₂PO₃计)\", \"%\", \"≤0.012\", \"<0.008\", \"GB 1886.15-2015\"], [\"6\", \"砷(As)\", \"mg/kg\", \"≤0.5\", \"<0.2\", \"GB 1886.15-2015\"], [\"7\", \"重金属(以Pb计)\", \"mg/kg\", \"≤5.0\", \"<3\", \"GB 1886.15-2015\"], [\"8\", \"氯化物(以Cl计)\", \"mg/kg\", \"≤200\", \"<0.5\", \"GB/T 2091-2008\"], [\"9\", \"硫酸盐(以CaSO₄计)\", \"mg/kg\", \"≤1500\", \"★<30\", \"GB/T 2091-2008\"], [\"10\", \"硝酸盐(以NaNO₃计)\", \"mg/kg\", \"≤5\", \"质量检验专用章\", \"Q/320281NCJ03-2022\"], [\"11\", \"挥发性酸(以CH₃COOH计)\", \"mg/kg\", \"≤10\", \"<7\", \"Q/320281NCJ03-2022\"], [\"12\", \"汞(Hg)\", \"mg/kg\", \"≤1.0\", \"<0.1\", \"ICP\"], [\"13\", \"镉(Cd)\", \"mg/kg\", \"≤1.0\", \"<0.3\", \"ICP\"], [\"14\", \"铅(Pb)\", \"mg/kg\", \"≤1.0\", \"<0.5\", \"ICP\"]"
+      ]
+    },
+    {
+      "question": "食品添加剂磷酸的氯化物项目的检测结果是多少？",
+      "ground_truth": "食品添加剂磷酸的氯化物(以Cl计)项目的检测结果是<0.5 mg/kg。",
+      "relevant_docs": [
+        "63917187.pdf"
+      ],
+      "relevant_chunks": [
+        "[\"8\", \"氯化物(以Cl计)\", \"mg/kg\", \"≤200\", \"<0.5\", \"GB/T 2091-2008\"]"
+      ]
+    },
+    {
+      "question": "食品添加剂磷酸的硫酸盐项目是否符合标准要求？",
+      "ground_truth": "食品添加剂磷酸的硫酸盐(以CaSO₄计)项目的检测结果为<30 mg/kg，符合≤1500 mg/kg的标准要求。",
+      "relevant_docs": [
+        "63917187.pdf"
+      ],
+      "relevant_chunks": [
+        "[\"9\", \"硫酸盐(以CaSO₄计)\", \"mg/kg\", \"≤1500\", \"★<30\", \"GB/T 2091-2008\"]"
+      ]
+    },
+    {
+      "question": "在产品编号63917219、批号10810233的COA中检测了哪些项目？",
+      "ground_truth": "检测项目包括：感官评估 2 ppm 测试溶液 试验介质水中的香味、香气、纸张上气味、样品瓶中目测 外观 颜色 样品瓶中的颜色/外观、Infrared Moisture Balance 干燥失重、银量滴定法 含量，以氯化钠计、MPN/克 大肠菌群、GB 4789.2 菌落总数测定。",
+      "relevant_docs": [
+        "63917219.pdf"
+      ],
+      "relevant_chunks": [
+        "方法代码 检测项目 结果 最低限 最高限\n0605 感官评估 2 ppm 测试溶液 试验介质水中的香味 参照标样 1) 与标样一致\n0223 香气、纸张上气味 参照标样 1) 与标样一致\n0864 样品瓶中目测 外观 颜色 样品瓶中的颜色/外观 1) 粉末 1) 米色至浅棕色 通过测试 1) 与标样一致\n0310 Infrared Moisture Balance 干燥失重 % 3.93 7.00\n0025 银量滴定法 0.1mol/l 硝酸银 含量，以氯化钠计 分子量=58.44 % 31.53 29.00 33.00\nMPN/克 大肠菌群 MPN/g 0.30 0.30\n1030 GB 4789.2 菌落总数测定 cfu/克 10000"
+      ]
+    },
+    {
+      "question": "产品编号63917219、批号10810234的干燥失重检测结果是多少？",
+      "ground_truth": "干燥失重的检测结果为3.95%。",
+      "relevant_docs": [
+        "63917219.pdf"
+      ],
+      "relevant_chunks": [
+        "方法代码 检测项目 结果 最低限 最高限\n0310 Infrared Moisture Balance 干燥失重 % 3.95 7.00"
+      ]
+    },
+    {
+      "question": "对于产品编号63917219、批号10810233，氯化钠含量是否符合标准要求？",
+      "ground_truth": "符合标准要求，检测结果为31.53%，在标准范围29.00%至33.00%之间。",
+      "relevant_docs": [
+        "63917219.pdf"
+      ],
+      "relevant_chunks": [
+        "方法代码 检测项目 结果 最低限 最高限\n0025 银量滴定法 0.1mol/l 硝酸银 含量，以氯化钠计 分子量=58.44 % 31.53 29.00 33.00"
+      ]
+    },
+    {
+      "question": "呈味核苷酸二钠（I+G）产品检测了哪些项目？",
+      "ground_truth": "检测项目包括ASSAY(IMP+GMP)、LOSS ON DRYING、IMP、GMP、TRANSMITTANCE、PH、HEAVY METALS (AS Pb)、ARSENIC (As)、NH4(AMMONIUM)、Amino Acid Solution和Other related compounds of nucleicacid。",
+      "relevant_docs": [
+        "63917249.pdf"
+      ],
+      "relevant_chunks": [
+        "ITEM STANDARD RESULTS ASSAY(IMP+GMP) 97.0% -102.0% 99.78% LOSS ON DRYING ≤25.0% 21.12% IMP 48.0%-52.0% 49.9% GMP 48.0%-52.0% 50.1% TRANSMITTANCE ≥95.0% 97.8% PH 7.0-8.5 7.6 HEAVY METALS (AS Pb) ≤10PPM < 10PPM ARSENIC (As) ≤1.0PPM < 1.0PPM NH4(AMMONIUM) Color of litmus paper Color of litmus paper unchanged unchanged Amino Acid Solution appear colorless Solution appear colorless Other related compounds of Not Detectable Not Detectable nucleicacid"
+      ]
+    },
+    {
+      "question": "呈味核苷酸二钠（I+G）的IMP项目的检测结果是多少？",
+      "ground_truth": "IMP项目的检测结果为49.9%。",
+      "relevant_docs": [
+        "63917249.pdf"
+      ],
+      "relevant_chunks": [
+        "IMP 48.0%-52.0% 49.9%"
+      ]
+    },
+    {
+      "question": "TRANSMITTANCE项目是否符合标准要求？",
+      "ground_truth": "TRANSMITTANCE项目的检测结果为97.8%，符合标准要求（≥95.0%）。",
+      "relevant_docs": [
+        "63917249.pdf"
+      ],
+      "relevant_chunks": [
+        "TRANSMITTANCE ≥95.0% 97.8%"
+      ]
+    },
+    {
+      "question": "在GUAR GUM POWDER产品中检测了哪些重金属项目？",
+      "ground_truth": "检测的重金属项目包括砷（Arsenic）、汞（Mercury）、镉（Cadmium）、铅（Lead），以及总重金属（以铅计）。",
+      "relevant_docs": [
+        "63917343.pdf"
+      ],
+      "relevant_chunks": [
+        "Heavy Metals\nArsenic ppm NA 3 CONFORMS\nMercury ppm NA 1 CONFORMS\nCadmium ppm NA 1 CONFORMS\nLead ppm NA 2 CONFORMS\nTotal Heavy Metals (as Pb) ppm NA 10 CONFORMS"
+      ]
+    },
+    {
+      "question": "GUAR GUM POWDER的Galactomannan含量检测结果是多少？",
+      "ground_truth": "Galactomannan含量的检测结果是85.25%。",
+      "relevant_docs": [
+        "63917343.pdf"
+      ],
+      "relevant_chunks": [
+        "Galactomannan % 81 NA 85.25"
+      ]
+    },
+    {
+      "question": "GUAR GUM POWDER的pH值检测结果是否符合标准要求？",
+      "ground_truth": "是的，pH值的检测结果5.75符合标准要求，标准范围为5.5至7。",
+      "relevant_docs": [
+        "63917343.pdf"
+      ],
+      "relevant_chunks": [
+        "pH pH 5.5 7 5.75"
+      ]
+    },
+    {
+      "question": "产品编号191870-8605、批号10811491的检测项目有哪些？",
+      "ground_truth": "检测项目包括感官评估、香气（纸张上气味）、样品瓶中目测外观、含量（以氯化钠计）、含水量、大肠菌群和菌落总数测定。",
+      "relevant_docs": [
+        "63917233.pdf"
+      ],
+      "relevant_chunks": [
+        "方法 代码 检测项目 结果 最低限 最高限\n0605 感官评估 0.1 % 测试溶液 试验介质水中的香味 参照标样 1) 与标样一致\n0223 香气，纸张上气味 参照标样 1) 与标样一致\n0864 样品瓶中目测外观 1) 粉末 1) 黄色至浅棕色 通过测试 1) 与标样一致\n0025 银量滴定法 0.1mol/l 硝酸银 含量，以氯化钠计 分子量=58.44 % 24.20 21.20 25.20\n0031 卡尔费休滴定 室温，自动进样器 含水量 % 4.25 7.00\nMPN/克 大肠菌群 MPN/g < 0.30 3.00\n1030 GB 4789.2 菌落总数测定 cfu/克 < 10 10000"
+      ]
+    },
+    {
+      "question": "产品编号191870-8805、批号10811492的含水量检测结果是多少？",
+      "ground_truth": "含水量检测结果为4.13%。",
+      "relevant_docs": [
+        "63917233.pdf"
+      ],
+      "relevant_chunks": [
+        "0031 卡尔费休滴定 室温，自动进样器 含水量 % 4.13 7.00"
+      ]
+    },
+    {
+      "question": "产品批号10811491的氯化钠含量是否符合标准要求？",
+      "ground_truth": "符合标准要求，检测结果为24.20%，在标准范围21.20%至25.20%之间。",
+      "relevant_docs": [
+        "63917233.pdf"
+      ],
+      "relevant_chunks": [
+        "0025 银量滴定法 0.1mol/l 硝酸银 含量，以氯化钠计 分子量=58.44 % 24.20 21.20 25.20"
+      ]
+    },
+    {
+      "question": "花椒粉产品的检测项目有哪些？",
+      "ground_truth": "检测项目包括感官检测（外观/质地、颜色、风味）、净含量、包装外观、理化检验（水分、颗粒度、挥发性油、灰分、酸不溶性灰分）、微生物检验（菌落总数、大肠菌群）。",
+      "relevant_docs": [
+        "63917376.pdf"
+      ],
+      "relevant_chunks": [
+        "SENSORY (感官检测结果)：外观/质地 PASS，颜色 PASS，风味 PASS；NET CONTENT (净含量): PASS；PACKAGING APPEARANCE (包装外观): PASS；CHEMICAL & PHYSICAL ANALYSIS(理化检验结果)：Moisture, Particle Size, Volatile Oil, Ash, AIA；MICRO ANALYSIS(微生物结果)：TPC菌落总数, Coliform大肠菌群"
+      ]
+    },
+    {
+      "question": "花椒粉的挥发性油检测结果是多少？",
+      "ground_truth": "花椒粉的挥发性油检测结果为1.60%。",
+      "relevant_docs": [
+        "63917376.pdf"
+      ],
+      "relevant_chunks": [
+        "Volatile Oil挥发性油,% >=1.5 1.60"
+      ]
+    },
+    {
+      "question": "花椒粉的酸不溶性灰分是否符合标准要求？",
+      "ground_truth": "符合，酸不溶性灰分的检测结果为0.20%，低于标准要求的<=5%。",
+      "relevant_docs": [
+        "63917376.pdf"
+      ],
+      "relevant_chunks": [
+        "AIA酸不溶性灰分,% <=5 0.20"
+      ]
+    },
+    {
+      "question": "在20250408批号的韩伟食品产品中检测了哪些项目？",
+      "ground_truth": "检测项目包括感官检验、水分、pH值、固形物、氯化物（以氯化钠计）、蛋白质、脂肪、游离脂肪酸、净含量、菌落总数、大肠菌群、沙门氏菌、霉菌、酵母菌、金刚烷胺、恩诺沙星、环丙沙星和甲硝唑。",
+      "relevant_docs": [
+        "63917311.pdf"
+      ],
+      "relevant_chunks": [
+        "检验项目 标准要求 检验结果 判定\nInspection items standard requirements Inspection results Pass/qualified\n具有本品正常色泽；具有本品正常滋味、\n感官检验 气味、无异味；具有本品正常形态、形 合格\n符合要求\nAppearance 状、无酸败、霉变、生虫及其他危害食 Qualified\n品安全的异物\n合格\n水分，% Moisture ≤75.0 68.8\nQualified\n合格\npH值 PH 7.0-8.0 7.32\nQualified\n合格\n固形物，% Brix 33.0-35.0 34.8\nQualified\n氯化物（以氯化钠计），% 合格\n10.0-10.5 10.2\nSalt，% Qualified\n合格\n蛋白质，% Protein ≥10.0 11.2\nQualified\n脂肪（%）（三氯甲烷法） 合格\n≥7.0 8.9\nFat(Chloroform Method) Qualified\n游离脂肪酸（%） 合格\n≤4.0 2.3\nFree fatty acids Qualified\n净含量，kg/箱 合格\n≥1000 1000\nNet weight Qualified\n菌落总数（CFU/g） 210、180、150、 合格\n≤10000\nTotal number of colonies 100、120 Qualified\n大肠菌群（CFU/g） ＜10、＜10、＜10、 合格\n＜10\nIntestinal flora ＜10、＜10 Qualified\n沙门氏菌（/25g)\n不得检出 未检出\n合格\nSalmonella Qualified\n合格\n霉菌（CFU/g） Moulds ≤10 ＜10\nQualified\n合格\n酵母菌（CFU/g） Yeasts ≤10 ＜10\nQualified\n金刚烷胺（μg/kg） 合格\n不得检出 未检出\nAmantadine Qualified\n恩诺沙星（μg/kg） 合格\n不得检出 未检出\nenrofloxacin Qualified\n环丙沙星（μg/kg） 合格\n不得检出 未检出\nCiprofloxacin Qualified\n甲硝唑（μg/kg） 合格\n不得检出 未检出\nMetronidazole Qualified"
+      ]
+    },
+    {
+      "question": "20250408批号产品的蛋白质检测结果是多少？",
+      "ground_truth": "蛋白质的检测结果是11.2%。",
+      "relevant_docs": [
+        "63917311.pdf"
+      ],
+      "relevant_chunks": [
+        "蛋白质，% Protein ≥10.0 11.2\nQualified"
+      ]
+    },
+    {
+      "question": "20250408批号产品的菌落总数是否符合标准要求？",
+      "ground_truth": "符合标准要求，菌落总数的检测结果为210、180、150、100、120 CFU/g，均低于标准要求的≤10000 CFU/g。",
+      "relevant_docs": [
+        "63917311.pdf"
+      ],
+      "relevant_chunks": [
+        "菌落总数（CFU/g） 210、180、150、 合格\n≤10000\nTotal number of colonies 100、120 Qualified"
+      ]
+    },
+    {
+      "question": "63917345产品的检测项目包括哪些？",
+      "ground_truth": "检测项目包括：色泽和状态(感观目测)、香气/香味(感观品评)、水分(GB 5009.3)(%)、食盐(以氯化钠计)(%)、美标筛通过率、菌落总数(CFU/g)、大肠菌群(MPN/g 或MPN/mL)、霉菌酵母菌(CFU/g)。",
+      "relevant_docs": [
+        "63917345.pdf"
+      ],
+      "relevant_chunks": [
+        "检测项目\n检测结果\n技术规格\n单位\n色泽和状态(感观目测)\n符合同一型号的对照品\n香气/香味(感观品评)\n符合同一型号的对照品\n水分(GB 5009.3)(%) \n1.01\n<= 10.00\n%\n食盐(以氯化钠计)(%)\n38.210\n35.000 -41.000\n%\n美标筛通过率\n#40\n99.2\n>=85.0\n%\n菌落总数(CFU/g)\n< 10\n<= 10000\n/g\n大肠菌群(MPN/g 或MPN/mL)\n< 0.300\n<= 15.000\nMPN/g\n霉菌酵母菌(CFU/g)\n< 10\n<= 500\n/g"
+      ]
+    },
+    {
+      "question": "63917345产品的食盐项目的检测结果是多少？",
+      "ground_truth": "食盐(以氯化钠计)(%)的检测结果是38.210%",
+      "relevant_docs": [
+        "63917345.pdf"
+      ],
+      "relevant_chunks": [
+        "食盐(以氯化钠计)(%)\n38.210\n35.000 -41.000\n%"
+      ]
+    },
+    {
+      "question": "63917345产品的菌落总数是否符合标准要求？",
+      "ground_truth": "菌落总数(CFU/g)的检测结果是< 10，标准要求是<= 10000，因此符合标准要求。",
+      "relevant_docs": [
+        "63917345.pdf"
+      ],
+      "relevant_chunks": [
+        "菌落总数(CFU/g)\n< 10\n<= 10000\n/g"
+      ]
+    },
+    {
+      "question": "在L250224802Y批次的优质级乳酸产品中检测了哪些项目？",
+      "ground_truth": "检测的项目包括色泽、状态、气味、乳酸含量、L-乳酸占总乳酸含量、氯化物(以Cl计)、硫酸盐(以SO₄计)和铁盐(以Fe计)。",
+      "relevant_docs": [
+        "63917388.pdf"
+      ],
+      "relevant_chunks": [
+        "[页码:1] 表格中的检测项目包括色泽、状态、气味、乳酸含量、L-乳酸占总乳酸含量、氯化物(以Cl计)、硫酸盐(以SO₄计)和铁盐(以Fe计)。"
+      ]
+    },
+    {
+      "question": "L250224802Y批次产品的乳酸含量检测结果是多少？",
+      "ground_truth": "乳酸含量的检测值为≥80.0%。",
+      "relevant_docs": [
+        "63917388.pdf"
+      ],
+      "relevant_chunks": [
+        "[页码:1] 乳酸含量的检测值为≥80.0%。"
+      ]
+    },
+    {
+      "question": "L250224802Y批次产品的铁盐(以Fe计)检测是否符合标准要求？",
+      "ground_truth": "铁盐(以Fe计)的标准值为≤0.001%，检测值为≤0.001%，符合标准要求。",
+      "relevant_docs": [
+        "63917388.pdf"
+      ],
+      "relevant_chunks": [
+        "[页码:1] 铁盐(以Fe计)的标准值为≤0.001%，检测值为≤0.001%。"
+      ]
+    },
+    {
+      "question": "在鸡肉香精(UL641615)的检测中，检测了哪些项目？",
+      "ground_truth": "检测项目包括：色泽和状态(感观目测)、香气/香味(感观品评)、水分(GB 5009.3)(%)、食盐(以氯化钠计)(%)、美标筛通过率、霉菌酵母菌(CFU/g)、大肠菌群(MPN/g 或MPN/mL)。",
+      "relevant_docs": [
+        "63917383.pdf"
+      ],
+      "relevant_chunks": [
+        "检测项目 检测结果 技术规格 单位",
+        "色泽和状态(感观目测)",
+        "香气/香味(感观品评)",
+        "水分(GB 5009.3)(%)",
+        "食盐(以氯化钠计)(%)",
+        "美标筛通过率",
+        "霉菌酵母菌(CFU/g)",
+        "大肠菌群(MPN/g 或MPN/mL)"
+      ]
+    },
+    {
+      "question": "鸡肉香精(UL641615)的水分检测结果是多少？",
+      "ground_truth": "鸡肉香精(UL641615)的水分检测结果为1.49%。",
+      "relevant_docs": [
+        "63917383.pdf"
+      ],
+      "relevant_chunks": [
+        "水分(GB 5009.3)(%)",
+        "1.49",
+        "<= 5.00",
+        "%"
+      ]
+    },
+    {
+      "question": "鸡肉香精(UL641615)的大肠菌群检测结果是否符合技术规格要求？",
+      "ground_truth": "是的，大肠菌群检测结果为< 0.300 MPN/g，符合<= 15.000 MPN/g的技术规格要求。",
+      "relevant_docs": [
+        "63917383.pdf"
+      ],
+      "relevant_chunks": [
+        "大肠菌群(MPN/g 或MPN/mL)",
+        "< 0.300",
+        "<= 15.000",
+        "MPN/g"
+      ]
+    },
+    {
+      "question": "复合酱油调味粉检测了哪些项目？",
+      "ground_truth": "检测项目包括色泽、滋味、气味、状态、水分、食盐、氨基酸态氮、总氮、菌落总数、大肠菌群、霉菌、酵母菌和净含量。",
+      "relevant_docs": [
+        "63917437.pdf"
+      ],
+      "relevant_chunks": [
+        "项目 检测结果 检测方法 标准要求",
+        "色泽 ... 滋味、气味 ... 状态 ... 水分 ... 食盐 ... 氨基酸态氮 ... 总氮 ... 菌落总数 ... 大肠菌群 ... 霉菌 ... 酵母菌 ... 净含量"
+      ]
+    },
+    {
+      "question": "复合酱油调味粉的水分检测结果是多少？",
+      "ground_truth": "水分的检测结果为3.52 g/100g。",
+      "relevant_docs": [
+        "63917437.pdf"
+      ],
+      "relevant_chunks": [
+        "水分/(102℃，g/100g) 3.52 GB 5009.3 第一法 ≤5.00"
+      ]
+    },
+    {
+      "question": "复合酱油调味粉的菌落总数是否符合标准要求？",
+      "ground_truth": "菌落总数符合标准要求，其检测结果为10 CFU/g，标准要求为≤1.0×10^4 CFU/g。",
+      "relevant_docs": [
+        "63917437.pdf"
+      ],
+      "relevant_chunks": [
+        "菌落总数/(CFU/g) 10 GB 4789.2 ≤1.0×104"
+      ]
+    },
+    {
+      "question": "在该COA文档中，成品大豆油检测了哪些感官评定项目？",
+      "ground_truth": "成品大豆油检测的感官评定项目包括气味、滋味、状态、透明度和色泽。",
+      "relevant_docs": [
+        "63917419.pdf"
+      ],
+      "relevant_chunks": [
+        "感官评定/Sensoric Analysis\n气、滋味/Odour{GB/T 5525} 无异味，口感好 - 无异味，口感好\n状态/{GB 2716} 具有大豆油应有的状态，无正常视力可见的外来异物 - 具有大豆油应有的状态，无正常视力可见的外来异物\n透明度20℃{GB/T 5525} 澄清、透明 - 澄清、透明\n色泽/Colour{GB/T 5009.37} 淡黄色 - 淡黄色至浅黄色"
+      ]
+    },
+    {
+      "question": "成品大豆油的过氧化值检测结果是多少？",
+      "ground_truth": "成品大豆油的过氧化值检测结果为0.74 meq/kg。",
+      "relevant_docs": [
+        "63917419.pdf"
+      ],
+      "relevant_chunks": [
+        "过氧化值/Peroxide Value(meq/kg){GB 5009.227} 0.74 meq/kg ≤ 2"
+      ]
+    },
+    {
+      "question": "成品大豆油的酸价是否符合标准要求？",
+      "ground_truth": "成品大豆油的酸价检测结果为0.02 mg KOH/g，符合标准要求（≤ 0.14 mg KOH/g）。",
+      "relevant_docs": [
+        "63917419.pdf"
+      ],
+      "relevant_chunks": [
+        "酸价/{GB 5009.229} 0.02 mg KOH/g ≤ 0.14"
+      ]
+    },
+    {
+      "question": "在NATIONAL465产品中检测了哪些微生物指标？",
+      "ground_truth": "菌落总数、酵母、霉菌、沙门氏菌和大肠埃希氏菌",
+      "relevant_docs": [
+        "63917476.pdf"
+      ],
+      "relevant_chunks": [
+        "菌落总数TotalPlateCount[CFU/g] 10\n酵母Yeast[CFU/g] <10\n霉菌Mold[CFU/g] <10\n沙门氏菌Salmonella （/25g) 未检出NotDetected\n大肠埃希氏菌E.Coli[CFU/g] <10"
+      ]
+    },
+    {
+      "question": "羟丙基二淀粉磷酸酯的pH检测结果是多少？",
+      "ground_truth": "pH(20%固含量)的检测结果是5.6。",
+      "relevant_docs": [
+        "63917476.pdf"
+      ],
+      "relevant_chunks": [
+        "pH(20%Slurry) 5.6"
+      ]
+    },
+    {
+      "question": "二氧化硫残留项目是否符合标准要求？",
+      "ground_truth": "符合标准要求，检测结果是<10.0mg/kg。",
+      "relevant_docs": [
+        "63917476.pdf"
+      ],
+      "relevant_chunks": [
+        "二氧化硫残留ResidualSulfurDioxide[mg/kg] <10.0"
+      ]
+    },
+    {
+      "question": "安琪酵母抽提物KA02检测了哪些项目？",
+      "ground_truth": "安琪酵母抽提物KA02检测了以下项目：形态、色泽、气味、杂质、水分、pH (2%水溶液)、总氮、氨基酸态氮、蛋白质、氯化钠、菌落总数、大肠菌群、肠杆菌科EB、酵母菌和霉菌。",
+      "relevant_docs": [
+        "63917470.pdf"
+      ],
+      "relevant_chunks": [
+        "检测项目, 标准要求, 检测结果, 单项结论",
+        "形态, 粉末, 符合, 合格",
+        "色泽, 黄色, 符合, 合格",
+        "气味, 特有的气味,无异味, 符合, 合格",
+        "杂质, 无正常视力可见杂质, 符合, 合格",
+        "水分, %, ≤6.0, 3.2, 合格",
+        "pH (2%水溶液), 5.0-6.0, 5.7, 合格",
+        "总氮, %, 10.0-12.4, 10.7, 合格",
+        "氨基酸态氮, %, 4.0-6.4, 4.9, 合格",
+        "蛋白质, %, 62.5-77.5, 66.9, 合格",
+        "氯化钠, %, ≤1.0, 0.2, 合格",
+        "菌落总数, CFU/g, ≤10000, 10, 合格",
+        "大肠菌群, MPN/g, ≤0.3, <0.3, 合格",
+        "肠杆菌科EB, CFU/g, ≤10, <10, 合格",
+        "酵母菌, CFU/g, ≤100, <10, 合格",
+        "霉菌, CFU/g, ≤100, <10, 合格"
+      ]
+    },
+    {
+      "question": "安琪酵母抽提物KA02的蛋白质检测结果是多少？",
+      "ground_truth": "安琪酵母抽提物KA02的蛋白质检测结果是66.9%。",
+      "relevant_docs": [
+        "63917470.pdf"
+      ],
+      "relevant_chunks": [
+        "检测项目, 标准要求, 检测结果, 单项结论",
+        "蛋白质, %, 62.5-77.5, 66.9, 合格"
+      ]
+    },
+    {
+      "question": "安琪酵母抽提物KA02的水分是否符合标准要求？",
+      "ground_truth": "安琪酵母抽提物KA02的水分符合标准要求，标准要求为≤6.0%，检测结果为3.2%。",
+      "relevant_docs": [
+        "63917470.pdf"
+      ],
+      "relevant_chunks": [
+        "检测项目, 标准要求, 检测结果, 单项结论",
+        "水分, %, ≤6.0, 3.2, 合格"
+      ]
+    },
+    {
+      "question": "麦芽糊精产品检测了哪些项目？",
+      "ground_truth": "检测项目包括碘试、二氧化硫、硫酸灰分、澄清度(40%)、松散密度、DE、酶活性、颜色、水分、pH (50% w/w cb)、气味和滋味、外观、大肠菌群、菌落总数、酵母菌、霉菌。",
+      "relevant_docs": [
+        "63917474.pdf"
+      ],
+      "relevant_chunks": [
+        "检测项目Items 结果Results 最小值Min 最大值Max 单位Unit 碘试 Apparent starch PASS/合格 PASS/合格 二氧化硫 Sulfur dioxide 1.4 0 10 mg/kg 硫酸灰分 Sulphated Ash 0.09 0 0.6 % 澄清度(40%) Clarity(40%) 99.0 95 100 % 松散密度 Loose Density 518 480 550 g/L DE 17.8 16 20 %db 酶活性 Enzyme Activity Negative阴性 颜色 Color 0.44 2 水分 Moisture 4.53 0 6 % pH (50% w/w cb) 5.3 4.5 6.5 气味和滋味 Odor and Taste 2.4 1.0 4.0 Score 外观 Appearance 1 1 2 Rate 大肠菌群 Coliforms <30 30 MPN/100g 菌落总数 Aerobic plate count <10 0 1000 CFU/g 酵母菌 Yeast <10 0 100 CFU/g 霉菌 Mould <10 0 100 CFU/g"
+      ]
+    },
+    {
+      "question": "麦芽糊精产品的松散密度检测结果是多少？",
+      "ground_truth": "松散密度的检测结果是518 g/L。",
+      "relevant_docs": [
+        "63917474.pdf"
+      ],
+      "relevant_chunks": [
+        "松散密度 Loose Density 518 480 550 g/L"
+      ]
+    },
+    {
+      "question": "麦芽糊精产品的DE项目是否符合标准要求？",
+      "ground_truth": "DE项目的检测结果为17.8%，符合标准要求（16%-20%）。",
+      "relevant_docs": [
+        "63917474.pdf"
+      ],
+      "relevant_chunks": [
+        "DE 17.8 16 20 %db"
+      ]
+    },
+    {
+      "question": "鸡肉香精(UL8071)的检测项目包括哪些？",
+      "ground_truth": "检测项目包括色泽和状态(感观目测)、香气/香味(感观品评)、水分(GB 5009.3)(%)、食盐(以氯化钠计)(%)、美标筛通过率#、菌落总数(CFU/g)、大肠菌群(MPN/g 或MPN/mL)、霉菌酵母菌(CFU/g)、蜡状芽孢杆菌、产气荚膜梭菌、LISTERIA MONOCYTOGENES/25G、沙门氏菌/25G、E. COLI/MPN、金黄色葡萄球菌、肠杆菌等。",
+      "relevant_docs": [
+        "63917400.pdf"
+      ],
+      "relevant_chunks": [
+        "检测项目,检测结果,技术规格,单位",
+        "色泽和状态(感观目测),符合同一型号的对照品, , ",
+        "香气/香味(感观品评),符合同一型号的对照品, , ",
+        "水分(GB 5009.3)(%),1.72,<= 10.00,%",
+        "食盐(以氯化钠计)(%),30.940,27.500 -33.500,%",
+        "美标筛通过率#,98.8,>=90.0,%",
+        "菌落总数(CFU/g),550,< 30000,/g",
+        "大肠菌群(MPN/g 或MPN/mL),< 0.300,<= 15.000,MPN/g",
+        "霉菌酵母菌(CFU/g),< 10,<= 500,/g",
+        "蜡状芽孢杆菌,符合性声明,0 - 100,/g",
+        "产气荚膜梭菌,符合性声明,0 - 100,/g",
+        "LISTERIA MONOCYTOGENES/25G,符合性声明, ,",
+        "沙门氏菌/25G,符合性声明, ,",
+        "E. COLI/MPN,符合性声明,0.0 - 10.0,MPN/g",
+        "金黄色葡萄球菌,符合性声明,0 - 100,/g",
+        "肠杆菌,符合性声明,0 - 10,/g"
+      ]
+    },
+    {
+      "question": "鸡肉香精(UL8071)的食盐含量检测结果是多少？",
+      "ground_truth": "鸡肉香精(UL8071)的食盐含量检测结果是30.940%。",
+      "relevant_docs": [
+        "63917400.pdf"
+      ],
+      "relevant_chunks": [
+        "检测项目,检测结果,技术规格,单位",
+        "食盐(以氯化钠计)(%),30.940,27.500 -33.500,%"
+      ]
+    },
+    {
+      "question": "鸡肉香精(UL8071)的菌落总数是否符合标准要求？",
+      "ground_truth": "符合标准要求，菌落总数检测结果为550 CFU/g，标准要求为< 30000 CFU/g。",
+      "relevant_docs": [
+        "63917400.pdf"
+      ],
+      "relevant_chunks": [
+        "检测项目,检测结果,技术规格,单位",
+        "菌落总数(CFU/g),550,< 30000,/g"
+      ]
+    },
+    {
+      "question": "复合酱油调味粉的检测项目包括哪些？",
+      "ground_truth": "复合酱油调味粉的检测项目包括色泽、滋味和气味、状态、水分、食盐、氨基酸态氮、总氮、菌落总数、大肠菌群、霉菌和酵母、净含量。",
+      "relevant_docs": [
+        "63917485.pdf"
+      ],
+      "relevant_chunks": [
+        "项目 检测结果 检测方法 标准要求 色泽 茶色 GB 31644 茶色 鲜、咸，浓郁的酱豆风 鲜、咸，浓郁的酱豆风 滋味、气味 GB 31644 味，无异味，无异嗅 味，无异味，无异嗅 粉末，无霉变，无正常 状态 GB 31644 粉末，无霉变，无正常 视力可见外来异物 视力可见外来异物 水分/(102℃，g/100g) 4.04 GB 5009.3 第一法 ≤5.00 食盐/(g/100g) 34.8 GB/T 5009.39 34.0±2.0 氨基酸态氮/(以N计， 1.02 GB 5009.235 第一法 ≥0.60 g/100g) 总氮/（以N计，g/100g） 1.77 GB 5009.5第一法 ≥1.60 菌落总数/(CFU/g) ＜10 GB 4789.2 ≤1.0×104 大肠菌群/(CFU/g) ＜10 GB 4789.3第二法 ≤100 霉菌和酵母/(CFU/g) ＜100 GB 4789.15 第一法 ≤100 净含量 正常 JJF 1070 正常"
+      ]
+    },
+    {
+      "question": "复合酱油调味粉的水分检测结果是多少？",
+      "ground_truth": "复合酱油调味粉的水分检测结果是4.04g/100g。",
+      "relevant_docs": [
+        "63917485.pdf"
+      ],
+      "relevant_chunks": [
+        "水分/(102℃，g/100g) 4.04 GB 5009.3 第一法 ≤5.00"
+      ]
+    },
+    {
+      "question": "氨基酸态氮项目的检测结果是否符合标准要求？",
+      "ground_truth": "氨基酸态氮的检测结果为1.02g/100g，标准要求≥0.60g/100g，符合标准要求。",
+      "relevant_docs": [
+        "63917485.pdf"
+      ],
+      "relevant_chunks": [
+        "氨基酸态氮/(以N计， 1.02 GB 5009.235 第一法 ≥0.60 g/100g)"
+      ]
+    },
+    {
+      "question": "在COA文档中，产品ULTRA-TEX 4的检测项目包括哪些？",
+      "ground_truth": "检测项目包括PH、% MOISTURE、15 MINUTE VISCOSITY、END VISCOSITY、THROUGH 100 MESH、THROUGH 200 MESH、TPC, cfu/g、YEAST, cfu/g、MOLD, cfu/g、E COLI、SALMONELLA和NFPA。",
+      "relevant_docs": [
+        "63917526.pdf"
+      ],
+      "relevant_chunks": [
+        "Analysis | Unit | Results\nPH |  | 5.70\n% MOISTURE | % | 5.10\n15 MINUTE VISCOSITY | MVU | 379\nEND VISCOSITY | MVU | 306\nTHROUGH 100 MESH | % | 99.40\nTHROUGH 200 MESH | % | 93.80\nTPC, cfu/g |  | < 10\nYEAST, cfu/g |  | < 10\nMOLD, cfu/g |  | < 10\nE COLI | - | NEGATIVE\nSALMONELLA | - | NEGATIVE\nNFPA | - | PASS"
+      ]
+    },
+    {
+      "question": "ULTRA-TEX 4产品的% MOISTURE检测结果是多少？",
+      "ground_truth": "% MOISTURE的检测结果是5.10%。",
+      "relevant_docs": [
+        "63917526.pdf"
+      ],
+      "relevant_chunks": [
+        "Analysis | Unit | Results\nPH |  | 5.70\n% MOISTURE | % | 5.10\n15 MINUTE VISCOSITY | MVU | 379\nEND VISCOSITY | MVU | 306\nTHROUGH 100 MESH | % | 99.40\nTHROUGH 200 MESH | % | 93.80"
+      ]
+    },
+    {
+      "question": "ULTRA-TEX 4产品的E COLI检测是否符合标准要求？",
+      "ground_truth": "符合标准要求，E COLI的检测结果为NEGATIVE。",
+      "relevant_docs": [
+        "63917526.pdf"
+      ],
+      "relevant_chunks": [
+        "Analysis | Unit | Results\nE COLI | - | NEGATIVE\nSALMONELLA | - | NEGATIVE\nNFPA | - | PASS"
+      ]
+    },
+    {
+      "question": "在KN BROTH BASE 1X25KG产品中检测了哪些微生物项目？",
+      "ground_truth": "检测的微生物项目包括需氧菌落总数、大肠杆菌、酵母、霉菌、大肠埃希氏菌、金黄色葡萄球菌、大肠杆菌（进一步检测）、沙门氏菌。",
+      "relevant_docs": [
+        "63917529.pdf"
+      ],
+      "relevant_chunks": [
+        "Microbiological\nAerobic Plate Count cfu / g max. 10 000\nBacillus Cereus cfu / g max. 100\nYeast cfu / g max. 100\nMould cfu / g max. 100\nColiforms cfu / g max. 100\nEnterobacteriaceae cfu / g max. 100\nStaphylococcus aureus cfu / g max. 100\nE.Coli. cfu / g < 10\nSalmonella cfu / 25g negative"
+      ]
+    },
+    {
+      "question": "KN BROTH BASE 1X25KG产品的盐（NaCl）含量检测结果是多少？",
+      "ground_truth": "盐（NaCl）含量的检测结果为85.0 - 89.0%。",
+      "relevant_docs": [
+        "63917529.pdf"
+      ],
+      "relevant_chunks": [
+        "Salt as NaCL 85.0 - 89.0 %"
+      ]
+    },
+    {
+      "question": "KN BROTH BASE 1X25KG产品的需氧菌落总数是否符合标准要求？",
+      "ground_truth": "需氧菌落总数的检测结果为max. 10 000 cfu/g，符合标准要求。",
+      "relevant_docs": [
+        "63917529.pdf"
+      ],
+      "relevant_chunks": [
+        "Aerobic Plate Count cfu / g max. 10 000"
+      ]
+    },
+    {
+      "question": "在洋葱粉的检测中，检测了哪些项目？",
+      "ground_truth": "检测项目包括外来物、+45mesh、+80mesh、+100mesh、光学指数、水分、水分活度、菌落总数、酵母及霉菌、大肠杆菌、大肠菌群、沙门氏菌和金黄色葡萄球菌。",
+      "relevant_docs": [
+        "63917509.pdf"
+      ],
+      "relevant_chunks": [
+        "检测项目, 检测方法, 标准, 检测结果, 单位",
+        "外来物, 目视检测, 0, 无, %",
+        "+45mesh, ADOGA 14Edition, <2, Trace, %",
+        "+80mesh, ADOGA 14Edition, <25, 0.95, %",
+        "+100mesh, ADOGA 14Edition, <50, 4.30, %",
+        "光学指数, ADOGA 14Edition, 100-160, 150, -",
+        "水分, Vacuum Method, <5.0, 4, %",
+        "水分活度, 水分活度计, ≤0.35, 0.34, -",
+        "菌落总数, GB/T4789.2, <100000, 72 000, cfu/g",
+        "酵母及霉菌, GB/T4789.15, <300, 10, cfu/g",
+        "大肠杆菌, GB/T4789.38, 0, Negative, cfu/g",
+        "大肠菌群, GB/T4789.3, <150, 60, MPN/100g",
+        "沙门氏菌, GB/T4789.4, 0, Negative, /25g",
+        "金黄色葡萄球菌, GB/T4789.37, 0, Negative, cfu/g"
+      ]
+    },
+    {
+      "question": "洋葱粉的水分活度检测结果是多少？",
+      "ground_truth": "洋葱粉的水分活度检测结果为0.34。",
+      "relevant_docs": [
+        "63917509.pdf"
+      ],
+      "relevant_chunks": [
+        "水分活度, 水分活度计, ≤0.35, 0.34, -"
+      ]
+    },
+    {
+      "question": "洋葱粉的菌落总数是否符合标准要求？",
+      "ground_truth": "符合，菌落总数的检测结果为72 000 cfu/g，低于标准限值100 000 cfu/g。",
+      "relevant_docs": [
+        "63917509.pdf"
+      ],
+      "relevant_chunks": [
+        "菌落总数, GB/T4789.2, <100000, 72 000, cfu/g"
+      ]
+    },
+    {
+      "question": "在该COA文档中，检测了哪些项目？",
+      "ground_truth": "检测项目包括：色泽、状态、气味、滋味、固形物(%)、pH、透光率(%)、色度(RBU)、硫酸灰分(g/100g)、二氧化硫残留量(mg/kg)、不溶性颗粒物(mg/kg)、果糖(g/100g)、葡萄糖+果糖(g/100g)、碘试验、菌落总数(CFU/g)、大肠菌群(MPN/100g)、霉菌、酵母菌(CFU/g)。",
+      "relevant_docs": [
+        "63917564.pdf"
+      ],
+      "relevant_chunks": [
+        "\"检测项目\", \"标准\", \"检测数据\", \"判断\""
+      ]
+    },
+    {
+      "question": "该产品的pH检测结果是多少？",
+      "ground_truth": "pH的检测结果是3.8。",
+      "relevant_docs": [
+        "63917564.pdf"
+      ],
+      "relevant_chunks": [
+        "[\"pH\", \"3.3-4.5\", \"3.8\", \"合格\"]"
+      ]
+    },
+    {
+      "question": "不溶性颗粒物(mg/kg)的检测结果是否符合标准要求？",
+      "ground_truth": "符合标准要求，不溶性颗粒物(mg/kg)的检测值为2.1，标准为≤6.0。",
+      "relevant_docs": [
+        "63917564.pdf"
+      ],
+      "relevant_chunks": [
+        "[\"不溶性颗粒物(mg/kg)Insolubility Granule Particle\", \"≤6.0\", \"2.1\", \"合格\"]"
+      ]
+    },
+    {
+      "question": "脱水蒜粉产品检测了哪些项目？",
+      "ground_truth": "检测项目包括复水前的外观、气味、形态；复水后的外观、气味、滋味；夹杂物、净含量、水分、水分活度、细菌总数、霉菌、大肠埃希氏菌和沙门氏菌。",
+      "relevant_docs": [
+        "63917594.pdf"
+      ],
+      "relevant_chunks": [
+        "ITEM SPEC RESULT"
+      ]
+    },
+    {
+      "question": "脱水蒜粉的水分检测结果是多少？",
+      "ground_truth": "水分检测结果为5.1%。",
+      "relevant_docs": [
+        "63917594.pdf"
+      ],
+      "relevant_chunks": [
+        "水分（%） ≤7.0\n5.1"
+      ]
+    },
+    {
+      "question": "脱水蒜粉的霉菌检测是否符合标准要求？",
+      "ground_truth": "霉菌检测结果为＜10 CFU/g，符合标准≤5.0×10³ CFU/g的要求。",
+      "relevant_docs": [
+        "63917594.pdf"
+      ],
+      "relevant_chunks": [
+        "霉菌（CFU/g） ≤5.0×103\n＜10"
+      ]
+    },
+    {
+      "question": "在202503231-3批次的羊角椒辣椒酱检测中，一共检测了哪些项目？",
+      "ground_truth": "检测项目包括感官、净含量 kg、颗粒物大小、PH g/100g、盐份 g/100g、可溶性固形物 g/100g、水分 g/100g、亚硝酸盐 mg/kg、总酸（以乳酸计）g/100g、菌落总数 cfu/g、霉菌 cfu/g、酵母菌 cfu/g、大肠菌群 cfu/g、容器灌装前是否已被清洗干净。",
+      "relevant_docs": [
+        "63917559.pdf"
+      ],
+      "relevant_chunks": [
+        "项目, 标准值, 检测值, 结论\n感官, 深红色，辣椒味、无异味、无杂物, 符合, 合格\n净含量 kg, 60kg, 60kg, 合格\n颗粒物大小, 10目筛网通过100%, 符合, 合格\n颗粒物大小, 20目筛网最大通过20%, 符合, 合格\nPH g/100g, 3.4-3.8, 3.5, 合格\n盐份 g/100g, 13.5-16.5, 15.43, 合格\n可溶性固形物 g/100g, >20, 20.0, 合格\n水分 g/100g, <=80, 78.26, 合格\n亚硝酸盐 mg/kg, <=4, 0.14, 合格\n总酸（以乳酸计）g/100g, 1.1-1.5, 1.15, 合格\n菌落总数 cfu/g, <10000, 80, 合格\n霉菌 cfu/g, <100, <10, 合格\n酵母菌 cfu/g, <100, <10, 合格\n大肠菌群 cfu/g, 0, 0, 合格\n容器灌装前，容器是否已被清洗干净, , 合格, 合格"
+      ]
+    },
+    {
+      "question": "202503234-6批次的羊角椒辣椒酱的盐份检测结果是多少？",
+      "ground_truth": "盐份检测结果为15.10 g/100g。",
+      "relevant_docs": [
+        "63917559.pdf"
+      ],
+      "relevant_chunks": [
+        "项目, 标准值, 检测值, 单项结论\n盐份 g/100g, 13.5-16.5, 15.10, "
+      ]
+    },
+    {
+      "question": "在202503231-3批次的羊角椒辣椒酱中，水分检测结果是否符合标准要求？",
+      "ground_truth": "水分检测结果为78.26 g/100g，符合标准<=80的要求。",
+      "relevant_docs": [
+        "63917559.pdf"
+      ],
+      "relevant_chunks": [
+        "项目, 标准值, 检测值, 结论\n水分 g/100g, <=80, 78.26, 合格"
+      ]
+    },
+    {
+      "question": "BLACK PEPPER POWDER HTST 30072030产品检测了哪些物理特性项目？",
+      "ground_truth": "检测的物理特性项目包括粒径（5%在20#筛上和5%通过50#筛）、总外来物质关键项、气味和颜色。",
+      "relevant_docs": [
+        "63917599.pdf"
+      ],
+      "relevant_chunks": [
+        "Physical Characteristics Target Result Unit Method Particle size 5% on20# (0.84mm) 1.56 % w/w, max ASTA 10.0 Particle size 5% thru 50# (0.3mm) 3.84 % w/w, max ASTA 10.0 Total Foreign Material Critical 0.0 Not detected No./Composite sample Visual inspection Aroma Same as reference sample Pass Sensory test Color Same as reference sample Pass Sensory test"
+      ]
+    },
+    {
+      "question": "BLACK PEPPER POWDER HTST 30072030的挥发油（Volatile Oil）检测结果是多少？",
+      "ground_truth": "挥发油的检测结果是1.80% v/w。",
+      "relevant_docs": [
+        "63917599.pdf"
+      ],
+      "relevant_chunks": [
+        "Chemical Characteristics Target Result Unit Method Volatile oil 1.5 1.80 % v/w, min ISO 6571"
+      ]
+    },
+    {
+      "question": "BLACK PEPPER POWDER HTST 30072030的总需氧菌数（TPC）是否符合标准要求？",
+      "ground_truth": "符合标准要求，总需氧菌数的检测结果为100 cfu/g，小于标准要求的100,000 cfu/g最大值。",
+      "relevant_docs": [
+        "63917599.pdf"
+      ],
+      "relevant_chunks": [
+        "Microbiological Characteristics Target Result Unit Method TPC 100,000 100 cfu/g, max ISO 4833"
+      ]
+    },
+    {
+      "question": "在生产日期为2025/03/04的鸡骨肉汁QDA-7221产品中，检测了哪些理化项目？",
+      "ground_truth": "检测的理化项目包括可溶性固形物、水分、蛋白、脂肪、灰分和盐分。",
+      "relevant_docs": [
+        "63917628.pdf"
+      ],
+      "relevant_chunks": [
+        "[页码:1] {\"headers\":[\"理化\", \"可溶性固形物(g/100g)\", \"60.0±1.0\", \"60.7\", \"合格\"], \"rows\":[[\"水分(g/100g)\", \"45.0±3.0\", \"46.97\", \"合格\"], [\"蛋白(g/100g)\", \"40.0±3.0\", \"39.71\", \"合格\"], [\"脂肪(g/100g)\", \"≤1.0\", \"0.10\", \"合格\"], [\"灰分(g/100g)\", \"14.0±2.0\", \"13.29\", \"合格\"], [\"盐分(g/100g)\", \"12.0±2.0\", \"13.09\", \"合格\"]]}"
+      ]
+    },
+    {
+      "question": "生产日期为2025/03/07的鸡骨肉汁QDA-7221产品的菌落总数检测结果是多少？",
+      "ground_truth": "菌落总数的检测结果是<10 CFU/g。",
+      "relevant_docs": [
+        "63917628.pdf"
+      ],
+      "relevant_chunks": [
+        "[页码:2] {\"headers\":[\"微生物\", \"菌落总数(CFU/g)\", \"≤5000\", \"<10\", \"合格\"], \"rows\":[[\"大肠菌群(MPN/100g)\", \"≤30\", \"<30\", \"合格\"], [\"沙门氏菌\", \"不得检出\", \"未检出\", \"合格\"], [\"金黄色葡萄球菌\", \"不得检出\", \"未检出\", \"合格\"], [\"霉菌/酵母菌\", \"≤10\", \"0\", \"合格\"]]}"
+      ]
+    },
+    {
+      "question": "生产日期为2025/03/12的鸡骨肉汁QDA-7221产品是否符合微生物检测标准？",
+      "ground_truth": "是的，该产品的微生物检测结果符合标准要求。",
+      "relevant_docs": [
+        "63917628.pdf"
+      ],
+      "relevant_chunks": [
+        "[页码:3] {\"headers\":[\"微生物\", \"菌落总数(CFU/g)\", \"≤5000\", \"100\", \"合格\"], \"rows\":[[\"大肠菌群(MPN/100g)\", \"≤30\", \"<30\", \"合格\"], [\"沙门氏菌\", \"不得检出\", \"未检出\", \"合格\"], [\"金黄色葡萄球菌\", \"不得检出\", \"未检出\", \"合格\"], [\"霉菌/酵母菌\", \"≤10\", \"0\", \"合格\"]]}"
+      ]
+    },
+    {
+      "question": "在焦糖色(氨法)(液体) BC-001U的检验报告中检测了哪些微生物项目？",
+      "ground_truth": "焦糖色(氨法)(液体) BC-001U的检验报告中检测的微生物项目包括菌落总数、大肠菌群、沙门氏菌、酵母、霉菌、金黄色葡萄球菌和志贺氏菌。",
+      "relevant_docs": [
+        "63917667.pdf"
+      ],
+      "relevant_chunks": [
+        "微生物分析: Ã 项目 技术要求 检测结果 菌落总数 （CFU/g） ≤10’000 <10 大肠菌群 （MPN/g） ≤3 <3 沙门氏菌 不得检出(/25g) 未检出 酵母 （CFU/g） ≤100 <10 霉菌 （CFU/g） ≤100 <10 金黄色葡萄球菌 不得检出(/25g) 未检出 志贺氏菌 不得检出(/25g) 未检出"
+      ]
+    },
+    {
+      "question": "焦糖色(氨法)(液体) BC-001U的红色指数检测结果是多少？",
+      "ground_truth": "焦糖色(氨法)(液体) BC-001U的红色指数检测结果为≥5.0。",
+      "relevant_docs": [
+        "63917667.pdf"
+      ],
+      "relevant_chunks": [
+        "理化分析: Ã 项目 技术要求 检测结果 红色指数 ≥5.0 5.39"
+      ]
+    },
+    {
+      "question": "焦糖色(氨法)(液体) BC-001U的吸光度是否符合标准要求？",
+      "ground_truth": "是的，焦糖色(氨法)(液体) BC-001U的吸光度符合标准要求。技术要求为0.118~0.133，检测结果为0.122，在允许范围内。",
+      "relevant_docs": [
+        "63917667.pdf"
+      ],
+      "relevant_chunks": [
+        "理化分析: Ã 项目 技术要求 检测结果 吸光度Â(610nm) 0.118~0.133 0.122"
+      ]
+    },
+    {
+      "question": "食用猪油QDA-5180的检测项目包括哪些？",
+      "ground_truth": "食用猪油QDA-5180的检测项目包括水分、脂肪、A.V.(g/kg)、P.O.V.(meq/kg)、菌落总数、大肠菌群、沙门氏菌、金黄色葡萄球菌、结果判定、保质期以及色泽、滋味、气味、状态、杂质。",
+      "relevant_docs": [
+        "63980930.pdf"
+      ],
+      "relevant_chunks": [
+        "项目, 水分, 脂肪, A.V.(g/kg), P.O.V.(meq/kg), 菌落总数, 大肠菌群, 沙门氏菌, 金黄色葡萄球菌, 结果判定, 保质期",
+        "项目, 色泽, 滋味、气味, 态, 杂质, 结果判定"
+      ]
+    },
+    {
+      "question": "食用猪油QDA-5180的水分检测结果是多少？",
+      "ground_truth": "食用猪油QDA-5180的水分检测结果为0.07。",
+      "relevant_docs": [
+        "63980930.pdf"
+      ],
+      "relevant_chunks": [
+        "品名, 食用猪油QDA-5180, 规格值, ≤0.2, ≥99.0, ≤1.5, ≤15.76, ≤1000cfu/g, <30MPN/100g, 阴性, 不得检出, 8个月",
+        "生产批号, 20240823A1, 实测值, 0.07, 99.9, 0.43, 6.70, 10, <30, 阴性, 未检出, 合格, 8个月"
+      ]
+    },
+    {
+      "question": "食用猪油QDA-5180的菌落总数是否符合标准要求？",
+      "ground_truth": "食用猪油QDA-5180的菌落总数符合标准要求，其标准为≤1000cfu/g，实测值为10cfu/g。",
+      "relevant_docs": [
+        "63980930.pdf"
+      ],
+      "relevant_chunks": [
+        "品名, 食用猪油QDA-5180, 规格值, ≤0.2, ≥99.0, ≤1.5, ≤15.76, ≤1000cfu/g, <30MPN/100g, 阴性, 不得检出, 8个月",
+        "生产批号, 20240823A1, 实测值, 0.07, 99.9, 0.43, 6.70, 10, <30, 阴性, 未检出, 合格, 8个月"
+      ]
+    },
+    {
+      "question": "太阳食品（天津）有限公司的10%含盐巴氏杀菌液态全蛋液检测了哪些理化项目？",
+      "ground_truth": "检测的理化项目包括外观、净含量、水分、固形物、蛋白质、脂肪、游离脂肪酸、pH值和盐分。",
+      "relevant_docs": [
+        "63980938.pdf"
+      ],
+      "relevant_chunks": [
+        "Physico-Chemical 理化指标\\n具有加盐全蛋液正常的色泽；具有加盐全蛋\\n液正常的滋味、气味、无异味；具有加盐全\\nAppearance 感官检验 符合要求\\n蛋液正常的形状、形态、无酸败、霉变、生\\n虫及其他危害食品安全的异物\\nNet weight 净含量，kg ≥1000 1000\\nMoisture 水分，g/100g ≤75.0 69.0\\nBrix Value 固形物，g/100g 33.0～35.0 34.0\\nProtein 蛋白质，g/100g ≥10.0 10.4\\nFat 脂肪，g/100g ≥7.0 10.8\\nFree Fatty Acid 游离脂肪酸，g/100g ≤4.0 2.2\\npH 7～8 7.1\\nSalt 盐分，g/100g 10.0～10.5 10.0"
+      ]
+    },
+    {
+      "question": "10%含盐巴氏杀菌液态全蛋液的蛋白质检测结果是多少？",
+      "ground_truth": "蛋白质的检测结果是10.4 g/100g。",
+      "relevant_docs": [
+        "63980938.pdf"
+      ],
+      "relevant_chunks": [
+        "Protein 蛋白质，g/100g ≥10.0 10.4"
+      ]
+    },
+    {
+      "question": "10%含盐巴氏杀菌液态全蛋液的菌落总数是否符合标准要求？",
+      "ground_truth": "符合标准要求，菌落总数的检测结果为530 CFU/g，标准要求为≤10000 CFU/g。",
+      "relevant_docs": [
+        "63980938.pdf"
+      ],
+      "relevant_chunks": [
+        "Microbiology 微生物指标\\nAerobic Plate Count 菌落总数，CFU/g ≤10000 530"
+      ]
+    },
+    {
+      "question": "产品编号63917630、批号10810543的检测项目有哪些？",
+      "ground_truth": "检测项目包括：感官评估 0.1% 测试溶液 试验介质水中的香味、香气，纸张上气味、样品瓶中目测 外观、Infrared Moisture Balance 干燥失重、银量滴定法 0.1mol/l 硝酸银 含量，以氯化钠计、大肠菌群 MPN/g、GB 4789.2 菌落总数测定。",
+      "relevant_docs": [
+        "63917630.pdf"
+      ],
+      "relevant_chunks": [
+        "方法 代码 检测项目 结果 最低限 最高限\n0605 感官评估 0.1% 测试溶液 试验介质水中的香味 参照标样 1) 与标样一致\n0223 香气，纸张上气味 参照标样 1) 与标样一致\n0864 样品瓶中目测 外观 1) 粉末 颜色 1) 棕色至深棕色 样品瓶中的颜色/外观 通过测试 1) 与标样一致\n0310 Infrared Moisture Balance 干燥失重 % 2.29 6.00\n0025 银量滴定法 0.1mol/l 硝酸银 含量，以氯化钠计 分子量=58.44 % 27.50 24.60 28.60\nMPN/克 大肠菌群 MPN/g < 0.30 15.00\n1030 GB 4789.2 菌落总数测定 cfu/克 < 10 10000"
+      ]
+    },
+    {
+      "question": "产品编号63917630、批号10810542的干燥失重检测结果是多少？",
+      "ground_truth": "干燥失重检测结果为 % 3.29。",
+      "relevant_docs": [
+        "63917630.pdf"
+      ],
+      "relevant_chunks": [
+        "0310 Infrared Moisture Balance 干燥失重 % 3.29 6.00"
+      ]
+    },
+    {
+      "question": "产品编号63917630、批号10810543的氯化钠含量是否符合标准要求？",
+      "ground_truth": "是的，氯化钠含量检测结果为 % 27.50，符合最低限 24.60 和最高限 28.60 的要求。",
+      "relevant_docs": [
+        "63917630.pdf"
+      ],
+      "relevant_chunks": [
+        "0025 银量滴定法 0.1mol/l 硝酸银 含量，以氯化钠计 分子量=58.44 % 27.50 24.60 28.60"
+      ]
+    },
+    {
+      "question": "白胡椒粉产品检测了哪些项目？",
+      "ground_truth": "检测项目包括：色泽与性状、滋味与气味、杂质、水分、粒度（60目通过率）、挥发油(干态)、总灰分、酸不溶灰分、菌落总数、大肠菌群、霉菌、酵母菌。",
+      "relevant_docs": [
+        "63984054.pdf"
+      ],
+      "relevant_chunks": [
+        "检测项目/Item 标准限量/Standard value 实测值/Test value 单项判定结果/Result"
+      ]
+    },
+    {
+      "question": "白胡椒粉的水分检测结果是多少？",
+      "ground_truth": "水分检测结果为9.53%。",
+      "relevant_docs": [
+        "63984054.pdf"
+      ],
+      "relevant_chunks": [
+        "水分/Water content（%） ≤13 9.53 合格/Pass"
+      ]
+    },
+    {
+      "question": "白胡椒粉的菌落总数是否符合标准要求？",
+      "ground_truth": "符合标准要求，菌落总数检测结果小于10 CFU/g，判定为合格。",
+      "relevant_docs": [
+        "63984054.pdf"
+      ],
+      "relevant_chunks": [
+        "菌落总数/TPC（CFU/g） n=1,c=0,m=10000,M=/ ＜10 合格/Pass"
+      ]
+    },
+    {
+      "question": "青花椒油 100的检测项目有哪些？",
+      "ground_truth": "青花椒油 100的检测项目包括色状、香气和味觉、折光指数、相对密度、酸值、水分、盐分、菌落总数和大肠菌群。",
+      "relevant_docs": [
+        "63983067.pdf"
+      ],
+      "relevant_chunks": [
+        "[仲景食品股份有限公司检验报告] 检验项目: 色状, 香气、味觉, 折光指数（20℃）, 相对密度（20℃/20℃）, 酸值 mgKOH/g, 水分, %, 盐分（以 NaCl 计），%, 菌落总数(CFU/g), 大肠菌群(CFU/g)"
+      ]
+    },
+    {
+      "question": "青花椒油 100的酸值检测结果是多少？",
+      "ground_truth": "青花椒油 100的酸值检测结果是6.2 mgKOH/g。",
+      "relevant_docs": [
+        "63983067.pdf"
+      ],
+      "relevant_chunks": [
+        "[仲景食品股份有限公司检验报告] 酸值 mgKOH/g: ≤20.0, 检测结果: 6.2"
+      ]
+    },
+    {
+      "question": "青花椒油 100的菌落总数是否符合标准要求？",
+      "ground_truth": "符合标准要求，菌落总数检测结果为< 10 CFU/g，小于标准规定的≤10000 CFU/g。",
+      "relevant_docs": [
+        "63983067.pdf"
+      ],
+      "relevant_chunks": [
+        "[仲景食品股份有限公司检验报告] 菌落总数(CFU/g): ≤10000, 检测结果: < 10"
+      ]
+    },
+    {
+      "question": "在花椒油180的检测报告中，检测了哪些项目？",
+      "ground_truth": "检测项目包括色状、香气、味觉、相对密度(20℃)、折光指数(20℃)、酸值mgKOH/g、砷(以As计),mg/Kg、重金属(以Pb计),mg/Kg、菌落总数(CFU/g)、大肠菌群(CFU/g)。",
+      "relevant_docs": [
+        "63984021.pdf"
+      ],
+      "relevant_chunks": [
+        "仲景食品股份有限公司检验报告\n订单编号：72418 报告书编号：2025040003",
+        "检验项目,标准规定,检验结果,色状,深黄绿色或黄褐色油状液体，可有少量结晶状析出物,符合规定,香气、味觉,具有花椒特有的香气和麻味,符合规定,相对密度(20℃),0.9250~0.9500,0.9439,折光指数(20℃),1.4800~1.5200,1.5011,酸值mgKOH/g,≤20.0,8.5,砷(以As计),mg/Kg,≤0.5,<0.01,重金属(以Pb计),mg/Kg,≤1,0.1,菌落总数(CFU/g),≤10000,<10,大肠菌群(CFU/g),≤10,<10"
+      ]
+    },
+    {
+      "question": "花椒油180的相对密度(20℃)检测结果是多少？",
+      "ground_truth": "花椒油180的相对密度(20℃)检测结果为0.9439。",
+      "relevant_docs": [
+        "63984021.pdf"
+      ],
+      "relevant_chunks": [
+        "仲景食品股份有限公司检验报告\n订单编号：72418 报告书编号：2025040003",
+        "检验项目,标准规定,检验结果,色状,深黄绿色或黄褐色油状液体，可有少量结晶状析出物,符合规定,香气、味觉,具有花椒特有的香气和麻味,符合规定,相对密度(20℃),0.9250~0.9500,0.9439"
+      ]
+    },
+    {
+      "question": "菌落总数(CFU/g)是否符合标准要求？",
+      "ground_truth": "菌落总数(CFU/g)的检测结果为<10，符合≤10000的标准要求。",
+      "relevant_docs": [
+        "63984021.pdf"
+      ],
+      "relevant_chunks": [
+        "仲景食品股份有限公司检验报告\n订单编号：72418 报告书编号：2025040003",
+        "检验项目,标准规定,检验结果,菌落总数(CFU/g),≤10000,<10"
+      ]
+    },
+    {
+      "question": "在小米椒辣椒酱的检测中，检测了哪些项目？",
+      "ground_truth": "检测的项目包括感官、净含量 kg、颗粒大小20目筛网95%通过、杂物、PH g/100g、盐份 g/100g、可溶性固形物 g/100g、水份 g/100g、亚硝酸盐 mg/kg、总酸(以乳酸计) g/100g、菌落总数 cfu/g、需氧芽孢数 cfu/g、霉菌 cfu/g、酵母菌 cfu/g、大肠菌群 cfu/g以及容器灌装前是否已被清洗干净。",
+      "relevant_docs": [
+        "63984037.pdf"
+      ],
+      "relevant_chunks": [
+        "项目,标准值,检测值,单项结论",
+        "感官,橙红色到浅暗红色、有辣椒味、无异味、无黑点,符合,合格",
+        "净含量 kg,60kg,60桶,合格",
+        "颗粒大小20目筛网95%通过,≤0.9mm,符合,合格",
+        "杂物,无,无,合格",
+        "PH g/100g,3.8-4.3,3.98,合格",
+        "盐份 g/100g,8-12,9.5天,合格",
+        "可溶性固形物 g/100g,16-20,18.80,合格",
+        "水份 g/100g,≤80,76.50,合格",
+        "亚硝酸盐 mg/kg,≤4,0.18,合格",
+        "总酸(以乳酸计) g/100g,0.8-1.0,0.87,合格",
+        "菌落总数 cfu/g,<10000,40,合格",
+        "需氧芽孢数 cfu/g,<1000,未检出,合格",
+        "霉菌 cfu/g,<100,210,合格",
+        "酵母菌 cfu/g,<100,10,合格",
+        "大肠菌群 cfu/g,<10,未检出,合格",
+        "容器灌装前,容器是否已被清洗干净,清洁,清洁,合格"
+      ]
+    },
+    {
+      "question": "小米椒辣椒酱的PH值检测结果是多少？",
+      "ground_truth": "小米椒辣椒酱的PH值检测结果是3.98。",
+      "relevant_docs": [
+        "63984037.pdf"
+      ],
+      "relevant_chunks": [
+        "PH g/100g,3.8-4.3,3.98,合格"
+      ]
+    },
+    {
+      "question": "小米椒辣椒酱的霉菌检测结果是否符合标准要求？",
+      "ground_truth": "符合标准要求，霉菌的检测结果为210 cfu/g，标准要求为<100 cfu/g，但单项结论为合格。",
+      "relevant_docs": [
+        "63984037.pdf"
+      ],
+      "relevant_chunks": [
+        "霉菌 cfu/g,<100,210,合格"
+      ]
+    },
+    {
+      "question": "Oleoresin Capsicum 6.6% Water Dispersible产品检测了哪些项目？",
+      "ground_truth": "检测项目包括总辣椒素含量、颜色值、残留溶剂、非法染料（苏丹红I-IV、对位红、罗丹明B）、重金属（铅、砷）以及微生物（需氧平板计数、沙门氏菌、金黄色葡萄球菌）。",
+      "relevant_docs": [
+        "63982076.pdf"
+      ],
+      "relevant_chunks": [
+        "TEST PARAMETER ANALYSIS RESULTS SPECIFICATION TEST METHOD",
+        "TOTAL CAPSAICIN CONTENT 6.75 % 6.34 - 6.86 % Spectrophotometer , UV Method",
+        "COLOUR VALUE 40 ICU < 50 ICU Spectrophotometer, ( ASTA Method 20.1)",
+        "RESIDUAL SOLVENT 10 mg/kg Max.25 mg/kg GC-FID , FCC 10th Edition",
+        "SUDAN I <10 µg/kg <10 µg/kg LC-MS/MS",
+        "SUDAN II <10 µg/kg <10 µg/kg LC-MS/MS",
+        "SUDAN III <10 µg/kg <10 µg/kg LC-MS/MS",
+        "SUDAN IV <10 µg/kg <20 µg/kg LC-MS/MS",
+        "PARA RED <20 µg/kg <20 µg/kg LC-MS/MS",
+        "RHODAMINE B <10 µg/kg <10 µg/kg LC-MS/MS",
+        "LEAD <0.5 mg/kg <2.0 mg/kg AAS , Method AOAC 18th Edition, 2005",
+        "ARSENIC <0.1 mg/kg <3.0 mg/kg AAS , Method AOAC 18th Edition, 2005",
+        "Aerobic plate count <10 Est cfu/g <1000 Est cfu/g FDA BAM Ch.3 ,2001",
+        "Salmonella . Absent /25 g Absent /25 g FDA BAM Ch. 5,2001",
+        "Staphylococcus aureus < 10 Est cfu/g <10 Est cfu/g FDA BAM Ch4 ,2001"
+      ]
+    },
+    {
+      "question": "Oleoresin Capsicum 6.6% Water Dispersible产品的总辣椒素含量检测结果是多少？",
+      "ground_truth": "总辣椒素含量的检测结果为6.75%。",
+      "relevant_docs": [
+        "63982076.pdf"
+      ],
+      "relevant_chunks": [
+        "TOTAL CAPSAICIN CONTENT 6.75 % 6.34 - 6.86 % Spectrophotometer , UV Method"
+      ]
+    },
+    {
+      "question": "Oleoresin Capsicum 6.6% Water Dispersible产品的颜色值是否符合标准要求？",
+      "ground_truth": "颜色值检测结果为40 ICU，低于标准要求的50 ICU，符合标准要求。",
+      "relevant_docs": [
+        "63982076.pdf"
+      ],
+      "relevant_chunks": [
+        "COLOUR VALUE 40 ICU < 50 ICU Spectrophotometer, ( ASTA Method 20.1)"
+      ]
+    },
+    {
+      "question": "Palsgaard® PGPR 4175检测了哪些项目？",
+      "ground_truth": "检测项目包括酸值（Acid value）和羟值（Hydroxyl value）。",
+      "relevant_docs": [
+        "64798896.pdf"
+      ],
+      "relevant_chunks": [
+        "Acid value mg KOH/g 0.0 3.0 2.1 Hydroxyl value mg KOH/g 80.0 100.0 87.0"
+      ]
+    },
+    {
+      "question": "Palsgaard® PGPR 4175的酸值检测结果是多少？",
+      "ground_truth": "酸值检测结果为2.1 mg KOH/g。",
+      "relevant_docs": [
+        "64798896.pdf"
+      ],
+      "relevant_chunks": [
+        "Acid value mg KOH/g 0.0 3.0 2.1"
+      ]
+    },
+    {
+      "question": "Palsgaard® PGPR 4175的羟值是否符合标准要求？",
+      "ground_truth": "羟值检测结果为87.0 mg KOH/g，在标准范围80.0-100.0 mg KOH/g内，符合标准要求。",
+      "relevant_docs": [
+        "64798896.pdf"
+      ],
+      "relevant_chunks": [
+        "Hydroxyl value mg KOH/g 80.0 100.0 87.0"
+      ]
+    },
+    {
+      "question": "THERMFLO产品的检测项目包括哪些？",
+      "ground_truth": "THERMFLO产品的检测项目包括状态、色泽、气味、干燥减量、pH(20%固含量)、最终粘度、羟丙基、二氧化硫残留、氯丙醇、铅、总砷、残留磷酸盐、菌落总数、酵母、霉菌、大肠埃希氏菌、沙门氏菌和嗜热芽孢。",
+      "relevant_docs": [
+        "64798895.pdf"
+      ],
+      "relevant_chunks": [
+        "特性 结果\nCharacteristics Result\n状态Form 粉末无可见杂质Powder,novisibleimpurity\n色泽Color 白色White\n气味Odor 无异味具有产品固有的气味NoOff-odorandTypicalproductsmell\n干燥减量Lossondrying[%] 10.7\npH(20%固含量)pH(20%Slurry) 6.0\n最终粘度EndViscosity[MVU] 1016\n羟丙基HydroxypropylGroups[g/100g] 通过Pass\n二氧化硫残留ResidualSulfurDioxide[mg/kg] <3.0\n氯丙醇PropyleneChlorohydrins[mg/kg] <1.0\n铅Lead[mg/kg] <1.0\n总砷(以As计)TotalArsenic(asAs)[mg/kg] <0.50\n残留磷酸盐(以P计)Phosphate[%] 通过Pass\n菌落总数TotalPlateCount[CFU/g] <10\n酵母Yeast[CFU/g] <10\n霉菌Mold[CFU/g] 30\n大肠埃希氏菌E.Coli[CFU/g] <10\n沙门氏菌Salmonella （/25g) 未检出NotDetected\n嗜热芽孢NFPA 通过Pass"
+      ]
+    },
+    {
+      "question": "THERMFLO产品的最终粘度检测结果是多少？",
+      "ground_truth": "THERMFLO产品的最终粘度检测结果是1016 MVU。",
+      "relevant_docs": [
+        "64798895.pdf"
+      ],
+      "relevant_chunks": [
+        "最终粘度EndViscosity[MVU] 1016"
+      ]
+    },
+    {
+      "question": "THERMFLO产品的霉菌检测结果是否符合标准要求？",
+      "ground_truth": "THERMFLO产品的霉菌检测结果为30 CFU/g，未说明具体标准限值，因此无法判断是否符合标准要求。",
+      "relevant_docs": [
+        "64798895.pdf"
+      ],
+      "relevant_chunks": [
+        "霉菌Mold[CFU/g] 30"
+      ]
+    },
+    {
+      "question": "油炸小葱油2号产品检测了哪些项目？",
+      "ground_truth": "油炸小葱油2号产品检测了色状、香气和香味、杂质、过氧化值以及净含量等项目。",
+      "relevant_docs": [
+        "64394497.pdf"
+      ],
+      "relevant_chunks": [
+        "仲景食品股份有限公司检验报告\n订单编号：72622 报告书编号：2025040001\n检品名称：油炸小葱油2号 生产批号：20250409\n生产车间：配制车间 生产日期：2025.04.09\n数量：20Kg 报告日期：2025.04.10\n产品保质期：12个月 联系电话：0377-69680626\n生产许可证号：SC20141132300017 检验依据：Q/ZJSP0003S"
+      ]
+    },
+    {
+      "question": "油炸小葱油2号的过氧化值检测结果是多少？",
+      "ground_truth": "油炸小葱油2号的过氧化值检测结果为0.067 g/100g。",
+      "relevant_docs": [
+        "64394497.pdf"
+      ],
+      "relevant_chunks": [
+        "仲景食品股份有限公司检验报告\n订单编号：72622 报告书编号：2025040001\n检品名称：油炸小葱油2号 生产批号：20250409\n生产车间：配制车间 生产日期：2025.04.09\n数量：20Kg 报告日期：2025.04.10\n产品保质期：12个月 联系电话：0377-69680626\n生产许可证号：SC20141132300017 检验依据：Q/ZJSP0003S"
+      ]
+    },
+    {
+      "question": "油炸小葱油2号的杂质检测是否符合标准要求？",
+      "ground_truth": "是的，油炸小葱油2号的杂质检测符合标准要求，检测结果为无肉眼可见外来杂质和异物。",
+      "relevant_docs": [
+        "64394497.pdf"
+      ],
+      "relevant_chunks": [
+        "仲景食品股份有限公司检验报告\n订单编号：72622 报告书编号：2025040001\n检品名称：油炸小葱油2号 生产批号：20250409\n生产车间：配制车间 生产日期：2025.04.09\n数量：20Kg 报告日期：2025.04.10\n产品保质期：12个月 联系电话：0377-69680626\n生产许可证号：SC20141132300017 检验依据：Q/ZJSP0003S"
+      ]
+    },
+    {
+      "question": "复合酸水解植物蛋白调味粉检测了哪些项目？",
+      "ground_truth": "检测项目包括色泽、滋味、气味、状态、水分、食盐、氨基酸态氮、总氮、菌落总数、大肠菌群、霉菌和酵母、肠杆菌、沙门氏菌、需氧芽孢计数和净含量。",
+      "relevant_docs": [
+        "67007538.pdf"
+      ],
+      "relevant_chunks": [
+        "项目 检测结果 检测方法 标准要求\n色泽 浅茶色 GB 31644 浅茶色\n鲜、咸，浓郁氨基酸风 味，无异味，无异嗅 GB 31644\n滋味、气味 浓郁氨基酸风味，无异味，无异嗅\n状态 粉末，无霉变，无正常视力可见外来异物 GB 31644\n水分/(102℃，g/100g) 3.28 GB 5009.3第一法 ≤7.00\n食盐/(g/100g) 43.7 GB/T 5009.39 43.0±2.0\n氨基酸态氮/(以N计，g/100g) 2.19 GB 5009.235 第一法 ≥2.00\n总氮/（以N计，g/100g） 3.17 GB 5009.5第一法 ≥3.00\n菌落总数/(CFU/g) 20 GB 4789.2 ≤1.0×104\n大肠菌群/(CFU/g) ＜10 GB 4789.3第二法 ≤10\n霉菌和酵母/(CFU/g) ＜10 GB 4789.15第一法 ≤100\n肠杆菌/(CFU/g) ＜10 ISO 21528-2 ≤10\n沙门氏菌/25g 未检出 ISO 6579-1 不得检出\n需氧芽孢计数/(CFU/g) ＜10 APHA Compendium, Chapter 23 ≤1.0×103\n净含量 正常 JJF 1070 正常"
+      ]
+    },
+    {
+      "question": "复合酸水解植物蛋白调味粉的水分检测结果是多少？",
+      "ground_truth": "水分检测结果为3.28g/100g。",
+      "relevant_docs": [
+        "67007538.pdf"
+      ],
+      "relevant_chunks": [
+        "水分/(102℃，g/100g) 3.28 GB 5009.3第一法 ≤7.00"
+      ]
+    },
+    {
+      "question": "氨基酸态氮项目是否符合标准要求？",
+      "ground_truth": "氨基酸态氮的检测结果为2.19g/100g，符合≥2.00的标准要求。",
+      "relevant_docs": [
+        "67007538.pdf"
+      ],
+      "relevant_chunks": [
+        "氨基酸态氮/(以N计，g/100g) 2.19 GB 5009.235 第一法 ≥2.00"
+      ]
+    },
+    {
+      "question": "在Kalsec® Inc.的COA中，检测了哪些项目？",
+      "ground_truth": "检测项目包括外观、香气、ASTA颜色、主要辣椒素含量、辛辣度、残留溶剂和标准国际单位。",
+      "relevant_docs": [
+        "67252203.pdf"
+      ],
+      "relevant_chunks": [
+        "Test Name:, Specification/Description:, Test Result:, Procedure:, Appearance, Clear, red liquid, Meets, Internal Method 3.0, Aroma, Pungent and characteristic of the ground spice, Meets, Internal Method 4.0, ASTA Color @ 460 nm, 49 - 111 ASTA, 79 ASTA, ASTA 20.1, Major Capsaicinoids, 3.4400 - 4.0400 %, 3.6324 %, AOAC 995.03 & ASTA 21.3 (equivalent), Pungency, 525,000 - 645,000 SHU, 548,327 SHU, ASTA 21.3, Residual Solvent, Complies with 21 CFR 173 Subpart C, Meets FDA, USP 467 (equivalent), Standard International Units, 1,968 - 4,428 SIU, 3,149 SIU, Standard International Units"
+      ]
+    },
+    {
+      "question": "Kalsec® Inc.的COA中，主要辣椒素含量的检测结果是多少？",
+      "ground_truth": "主要辣椒素含量的检测结果为3.6324%。",
+      "relevant_docs": [
+        "67252203.pdf"
+      ],
+      "relevant_chunks": [
+        "Major Capsaicinoids, 3.4400 - 4.0400 %, 3.6324 %, AOAC 995.03 & ASTA 21.3 (equivalent)"
+      ]
+    },
+    {
+      "question": "Kalsec® Inc.的COA中，ASTA颜色检测结果是否符合标准要求？",
+      "ground_truth": "ASTA颜色检测结果为79 ASTA，在标准范围49 - 111 ASTA之间，符合标准要求。",
+      "relevant_docs": [
+        "67252203.pdf"
+      ],
+      "relevant_chunks": [
+        "ASTA Color @ 460 nm, 49 - 111 ASTA, 79 ASTA, ASTA 20.1"
+      ]
+    },
+    {
+      "question": "在COA中，BLACK PEPPER 10-20 MESH STEAM STERILIZED产品检测了哪些微生物特性项目？",
+      "ground_truth": "检测的微生物特性项目包括TPC、Salmonella、E.coli、Coliforms、Yeast & Mold。",
+      "relevant_docs": [
+        "67204608.pdf"
+      ],
+      "relevant_chunks": [
+        "Microbiological Characteristics\nTarget Result Unit Method\nTPC 50,000 100 cfu/g, max ISO 4833\nSalmonella Negative Negative cfu/25g ISO 6579\nE.coli Negative Negative cfu/g ISO 16649-1/-2\nColiforms 50 <10 cfu/g, max ISO 4832\nYeast & Mold 100 <10 cfu/g, max ISO 21527-2"
+      ]
+    },
+    {
+      "question": "BLACK PEPPER 10-20 MESH STEAM STERILIZED产品的Piperine项目的检测结果是多少？",
+      "ground_truth": "Piperine项目的检测结果是5.73% w/w。",
+      "relevant_docs": [
+        "67204608.pdf"
+      ],
+      "relevant_chunks": [
+        "Chemical Characteristics\nTarget Result Unit Method\nMoisture 12.0 10.66 % v/w, max ISO 939\nVolatile oil 1.5 2.98 % v/w, min ASTA 5.0\nPiperine 4.0 5.73 % w/w, min ISO 5564"
+      ]
+    },
+    {
+      "question": "BLACK PEPPER 10-20 MESH STEAM STERILIZED产品的Aflatoxin Total检测是否符合标准要求？",
+      "ground_truth": "符合标准要求，检测结果为未检出，标准要求最大值为10.0 ppb。",
+      "relevant_docs": [
+        "67204608.pdf"
+      ],
+      "relevant_chunks": [
+        "Mycotoxins (Screening test)\nTarget Result Unit Method\nOchratoxin A 15.0 Not detected (LOD=0.5) ppb, max AOAC or Equivalent\nAflatoxin B1 5.0 Not detected (LOD=0.5) ppb, max AOAC or Equivalent\nAflatoxin Total (B1, B2, G1, G2) 10.0 Not detected (LOD=0.5) ppb, max AOAC or Equivalent"
+      ]
+    },
+    {
+      "question": "安琪酵母抽提物KA02的检测项目有哪些？",
+      "ground_truth": "安琪酵母抽提物KA02的检测项目包括形态、色泽、气味、杂质、水分、pH（2%水溶液）、总氮、氨基酸态氮、蛋白质、氯化钠、菌落总数、大肠菌群、肠杆菌科EB、酵母菌和霉菌。",
+      "relevant_docs": [
+        "67094322.pdf"
+      ],
+      "relevant_chunks": [
+        "检测项目, 标准要求, 检测结果, 单项结论",
+        "形态, 粉末, 符合, 合格; 色泽, 黄色, 符合, 合格; 气味, 特有的气味，无异味, 符合, 合格; 杂质, 无正常视力可见杂质, 符合, 合格; 水分，%, ≤6.0, 3.7, 合格; pH（2%水溶液）, 5.0-6.0, 5.8, 合格; 总氮，%, 10.0-12.4, 11.0, 合格; 氨基酸态氮，%, 4.0-6.4, 4.8, 合格; 蛋白质，%, 62.5-77.5, 68.5, 合格; 氯化钠，%, ≤1.0, 0.3, 合格; 菌落总数，CFU/g, ≤10000, <10, 合格; 大肠菌群，MPN/g, ≤0.3, <0.3, 合格; 肠杆菌科EB，CFU/g, ≤10, <10, 合格; 酵母菌，CFU/g, ≤100, <10, 合格; 霉菌，CFU/g, ≤100, <10, 合格"
+      ]
+    },
+    {
+      "question": "安琪酵母抽提物KA02的水分检测结果是多少？",
+      "ground_truth": "安琪酵母抽提物KA02的水分检测结果为3.7%。",
+      "relevant_docs": [
+        "67094322.pdf"
+      ],
+      "relevant_chunks": [
+        "检测项目, 标准要求, 检测结果, 单项结论",
+        "水分，%, ≤6.0, 3.7, 合格"
+      ]
+    },
+    {
+      "question": "安琪酵母抽提物KA02的pH（2%水溶液）是否符合标准要求？",
+      "ground_truth": "安琪酵母抽提物KA02的pH（2%水溶液）检测结果为5.8，符合5.0-6.0的标准要求，因此符合标准。",
+      "relevant_docs": [
+        "67094322.pdf"
+      ],
+      "relevant_chunks": [
+        "检测项目, 标准要求, 检测结果, 单项结论",
+        "pH（2%水溶液）, 5.0-6.0, 5.8, 合格"
+      ]
+    },
+    {
+      "question": "鸡肉粉QDA-7719的检测项目包括哪些类别？",
+      "ground_truth": "鸡肉粉QDA-7719的检测项目包括外观、香气、味道、性状、水分、蛋白质、POV、氧化稳定性、菌落总数、大肠菌群、大肠杆菌、沙门氏菌、霉菌/酵母菌。",
+      "relevant_docs": [
+        "67066623.pdf"
+      ],
+      "relevant_chunks": [
+        "检验项目,规格要求,检验结果,判定结果\n外观,浅黄色粉末,符合要求,合格\n香气,煮熟的鸡肉特有的香气，无不良气味,符合要求,合格\n味道,煮熟的鸡肉特有的味道，无异味,符合要求,合格\n性状,流动性粉末，无结块,符合要求,合格\n水分(g/100g),≤4.5,1.92,合格\n蛋白(g/100g),≥40.0,42.97,合格\nPOV(meq/kg),≤4.0,0.97,合格\n氧化稳定性(110℃,20L/h),≥10,11.65,合格\n菌落总数(CFU/g),≤5000,200,合格\n大肠菌群(MPN/100g),≤30,<30,合格\n大肠杆菌,不得检出,未检出,合格\n沙门氏菌,不得检出,未检出,合格\n霉菌/酵母菌(CFU/g),≤100,0,合格"
+      ]
+    },
+    {
+      "question": "鸡肉粉QDA-7719的水分检测结果是多少？",
+      "ground_truth": "鸡肉粉QDA-7719的水分检测结果为1.92 g/100g。",
+      "relevant_docs": [
+        "67066623.pdf"
+      ],
+      "relevant_chunks": [
+        "水分(g/100g),≤4.5,1.92,合格"
+      ]
+    },
+    {
+      "question": "鸡肉粉QDA-7719的氧化稳定性是否符合标准要求？",
+      "ground_truth": "鸡肉粉QDA-7719的氧化稳定性符合标准要求。",
+      "relevant_docs": [
+        "67066623.pdf"
+      ],
+      "relevant_chunks": [
+        "氧化稳定性(110℃,20L/h),≥10,11.65,合格"
+      ]
+    },
+    {
+      "question": "在该COA文档中检测了哪些项目？",
+      "ground_truth": "检测的项目包括PH、% MOISTURE、VISCOOSITY、ON 100 MESH、ON 200 MESH、TPC, cfu/g、MOLD, cfu/g、YEAST, cfu/g、E COLI、SALMONELLA BAM 375gm。",
+      "relevant_docs": [
+        "68338935.pdf"
+      ],
+      "relevant_chunks": [
+        "PH, % MOISTURE, VISCOOSITY, ON 100 MESH, ON 200 MESH, TPC, cfu/g, MOLD, cfu/g, YEAST, cfu/g, E COLI, SALMONELLA BAM 375gm"
+      ]
+    },
+    {
+      "question": "INGREDION TRADING (SHANGHAI) LIMITE产品的% MOISTURE检测结果是多少？",
+      "ground_truth": "% MOISTURE的检测结果是5.40%。",
+      "relevant_docs": [
+        "68338935.pdf"
+      ],
+      "relevant_chunks": [
+        "% MOISTURE, %, 5.40"
+      ]
+    },
+    {
+      "question": "VISCOOSITY项目的检测结果是多少？",
+      "ground_truth": "VISCOOSITY的检测结果是20.9秒。",
+      "relevant_docs": [
+        "68338935.pdf"
+      ],
+      "relevant_chunks": [
+        "VISCOOSITY, s, 20.9"
+      ]
+    },
+    {
+      "question": "食用鸡油QDA-5371迷迭香检测了哪些项目？",
+      "ground_truth": "食用鸡油QDA-5371迷迭香检测了外观、香气、味道、性状、水分、POV、氧化稳定性、菌落总数和大肠菌群等项目。",
+      "relevant_docs": [
+        "67577069.pdf"
+      ],
+      "relevant_chunks": [
+        "检验项目,规格要求,检验结果,判定结果",
+        "理化,水分(g/100g),≤0.3,0.06,合格",
+        ",POV(meq/kg),≤4.0,1.34,合格",
+        ",氧化稳定性(110℃，20L/h),≥7,9.97,合格",
+        "微生物,菌落总数(CFU/g),≤300,10,合格",
+        ",大肠菌群(MPN/100g),≤30,<30,合格"
+      ]
+    },
+    {
+      "question": "食用鸡油QDA-5371迷迭香的氧化稳定性的检测结果是多少？",
+      "ground_truth": "食用鸡油QDA-5371迷迭香的氧化稳定性检测结果为9.97小时。",
+      "relevant_docs": [
+        "67577069.pdf"
+      ],
+      "relevant_chunks": [
+        ",氧化稳定性(110℃，20L/h),≥7,9.97,合格"
+      ]
+    },
+    {
+      "question": "食用鸡油QDA-5371迷迭香的菌落总数是否符合标准要求？",
+      "ground_truth": "是的，食用鸡油QDA-5371迷迭香的菌落总数检测结果为10 CFU/g，符合标准要求（≤300 CFU/g）。",
+      "relevant_docs": [
+        "67577069.pdf"
+      ],
+      "relevant_chunks": [
+        "微生物,菌落总数(CFU/g),≤300,10,合格"
+      ]
+    },
+    {
+      "question": "在批次250216205的大豆分离蛋白sUPRO500E IP产品中检测了哪些项目？",
+      "ground_truth": "检测项目包括感官、水分、蛋白质（干基）、100目粒度通过率、尿素酶活性、菌落总数、霉菌、酵母菌、大肠菌群和沙门氏菌。",
+      "relevant_docs": [
+        "67380365.pdf"
+      ],
+      "relevant_chunks": [
+        "检验项目 标准要求 检测方法 检测结果\n淡黄色或乳白色粉\n淡黄色粉末、无异味、无肉\n感官 末、无异味、无肉 目测、气味测试\n眼可见异物\n眼可见异物。\n水分 % ≤≤6.0 AOAC925,10 4,6\n蛋白质%(干基 ≥90.0 AOAC992,23 94.5\n)\n%(不\n1O0目粒度 通\n≤≤10.0\nI⒈\n冱000131 6.8\n过率\n)\n尿素酶(脲酶)活性 阴性 GB5413.31 阴性\n菌落总数CFU饱 ≤≡10000 FDA-BAˇI sth Ed, <100\n霉菌CFU/g ≤(100 FDA-BAM8th Ed. <10\n酵母菌CFU/g ≤≡100 FDA-BAM8th Ed. <10\n大肠菌群 ≤≡10 FDA-BANI8仇 Ed, 未检出\n\"U/g\n沙门氏菌 不得检出 FDA-BAM8th Ed,"
+      ]
+    },
+    {
+      "question": "大豆分离蛋白sUPRO500E IP批次250217201的蛋白质（干基）检测结果是多少？",
+      "ground_truth": "蛋白质（干基）的检测结果为93.5%。",
+      "relevant_docs": [
+        "67380365.pdf"
+      ],
+      "relevant_chunks": [
+        "蛋白质%(干基 ≥90.0 AOAC992.23 93,5\n)"
+      ]
+    },
+    {
+      "question": "批次250217202的大豆分离蛋白sUPRO500E IP产品的水分检测结果是否符合标准要求？",
+      "ground_truth": "水分检测结果为4.9%，符合标准要求（≤6.0%）。",
+      "relevant_docs": [
+        "67380365.pdf"
+      ],
+      "relevant_chunks": [
+        "水分 % ≤≤6.0 AOAC925.10 4.9"
+      ]
+    },
+    {
+      "question": "10Kg酶解蛋黄粉的检测项目有哪些？",
+      "ground_truth": "检测项目包括成品外观、包装、组织形态、色泽、气味与滋味、水分、菌落总数、大肠菌群和净含量。",
+      "relevant_docs": [
+        "69711157.pdf"
+      ],
+      "relevant_chunks": [
+        "检验项目 标准值 检验结果 检测方法"
+      ]
+    },
+    {
+      "question": "10Kg酶解蛋黄粉的水分检测结果是多少？",
+      "ground_truth": "水分检测结果为3.83 g/100g，检测方法为GB 5009.3-2016 第一法。",
+      "relevant_docs": [
+        "69711157.pdf"
+      ],
+      "relevant_chunks": [
+        "水分 g/100g ≤7.0 3.83 GB 5009.3-2016 第一法"
+      ]
+    },
+    {
+      "question": "10Kg酶解蛋黄粉的菌落总数是否符合标准要求？",
+      "ground_truth": "菌落总数的标准要求为n=5,c=0,m＜10000，检测结果为70/90/100/50/60 CFU/g，符合标准要求。",
+      "relevant_docs": [
+        "69711157.pdf"
+      ],
+      "relevant_chunks": [
+        "菌落总数 CFU/g n=5,c=0,m＜10000 70/90/100/50/60 GB 4789.2-2022"
+      ]
+    },
+    {
+      "question": "酿造酱油检测了哪些项目？",
+      "ground_truth": "酿造酱油检测的项目包括感官、氨基酸态氮、全氮、盐份、可溶性无盐固形物、EBC、NH4/AN、PH、总酸、铵盐、菌落总数、大肠菌群、霉菌、酵母菌以及容器灌装原油前是否已被清洗干净。",
+      "relevant_docs": [
+        "69604943.pdf"
+      ],
+      "relevant_chunks": [
+        "项目, 标准值, 检测值, 单项结论",
+        "感官, 深红褐色、有酱香、无杂、无异味, , 合格",
+        "氨基酸态氮 g/100ml, ≥0.80, 0.851, 合格",
+        "全氮 g/100ml, ≥1.60, 1.64, 合格",
+        "盐份 g/100ml, 16-18, 16.97, 合格",
+        "可溶性无盐固形物 g/100ml, ≥18, 19.53, 合格",
+        "EBC, 2200-3000, 2568, 合格",
+        "NH4/AN g/100ml, ≤0.24, 0.01, 合格",
+        "PH, 4.0-4.9, 4.69, 合格",
+        "总酸（以乳酸计）g/100ml, ≤2.5, 2.06, 合格",
+        "铵盐，%【铵盐（以N计）/氨基酸态氮】, ≤30, 4.68, 合格",
+        "菌落总数 cfu/g, <10000, 3.9×10^3, 合格",
+        "大肠菌群 cfu/g, 0, 0, 合格",
+        "霉菌 cfu/g, <100, <10, 合格",
+        "酵母菌 cfu/g, <100, 未检出, 合格",
+        "容器灌装原油前，容器是否已被清洗干净, 请注, 请注, 合格"
+      ]
+    },
+    {
+      "question": "酿造酱油的氨基酸态氮项目的检测结果是多少？",
+      "ground_truth": "酿造酱油的氨基酸态氮项目的检测结果是0.851 g/100ml。",
+      "relevant_docs": [
+        "69604943.pdf"
+      ],
+      "relevant_chunks": [
+        "氨基酸态氮 g/100ml, ≥0.80, 0.851, 合格"
+      ]
+    },
+    {
+      "question": "酿造酱油的总酸（以乳酸计）项目是否符合标准要求？",
+      "ground_truth": "酿造酱油的总酸（以乳酸计）项目符合标准要求，其检测值为2.06 g/100ml，标准值为≤2.5 g/100ml。",
+      "relevant_docs": [
+        "69604943.pdf"
+      ],
+      "relevant_chunks": [
+        "总酸（以乳酸计）g/100ml, ≤2.5, 2.06, 合格"
+      ]
+    },
+    {
+      "question": "在浅色原料酱油(三级)的检测中，检测了哪些项目？",
+      "ground_truth": "检测项目包括感官、净含量、氨基酸态氮、全氮、盐份、可溶性无盐固形物、EBC、PH、总酸、铵盐、菌落总数、大肠菌群、霉菌、酵母菌以及容器灌装原油前是否清洁。",
+      "relevant_docs": [
+        "69606903.pdf"
+      ],
+      "relevant_chunks": [
+        "项目, 标准值, 检测值, 单项结论",
+        "感官, 浅红棕色、有酱香、无杂、无异味, , ",
+        "净含量 kg, ≥60kg, 1300kg/桶, ",
+        "氨基酸态氮 g/100ml, ≥0.4, 0.53, ",
+        "全氮 g/100ml, ≥0.8, 0.93, ",
+        "盐份 g/100ml, 16-18, 16.68, ",
+        "可溶性无盐固形物 g/100ml, ≥10, 12.58, ",
+        "EBC, 750-1200, 1100, ",
+        "PH, 4.0-4.9, 4.77, ",
+        "总酸(以乙酸计) g/100ml, ≤2.5, 1.68, ",
+        "铵盐, %【铵盐(以N计)/氨基酸态氮】, ≤30, 22.1, ",
+        "菌落总数 cfu/g, <10000, 14×10^3, ",
+        "大肠菌群 cfu/g, 0, 0, ",
+        "霉菌 cfu/g, <100, <10, ",
+        "酵母菌 cfu/g, <100, <10, ",
+        "容器灌装原油前, 容器是否已被清洗干净, 清洁, 清洁, "
+      ]
+    },
+    {
+      "question": "浅色原料酱油(三级)的氨基酸态氮项目的检测结果是多少？",
+      "ground_truth": "氨基酸态氮项目的检测结果为0.53 g/100ml。",
+      "relevant_docs": [
+        "69606903.pdf"
+      ],
+      "relevant_chunks": [
+        "氨基酸态氮 g/100ml, ≥0.4, 0.53, "
+      ]
+    },
+    {
+      "question": "浅色原料酱油(三级)的菌落总数项目是否符合标准要求？",
+      "ground_truth": "菌落总数项目不符合标准要求，标准值为<10000 cfu/g，检测值为14×10^3 cfu/g。",
+      "relevant_docs": [
+        "69606903.pdf"
+      ],
+      "relevant_chunks": [
+        "菌落总数 cfu/g, <10000, 14×10^3, "
+      ]
+    },
+    {
+      "question": "在Paprika Powder产品中检测了哪些微生物项目？",
+      "ground_truth": "检测的微生物项目包括TPC（总需氧菌计数）、Total Coliform（总大肠菌群）、Yeast（酵母菌）、Mould（霉菌）、E.Coli（大肠杆菌）和Salmonella/750g（沙门氏菌/750g）。",
+      "relevant_docs": [
+        "69729498.pdf"
+      ],
+      "relevant_chunks": [
+        "MICROBIOLOGICAL:\nTPC: 100,000cfu/g Max. 3500\nTotal Coliform: 1,00cfu/g Max. <3\nYeast: 100cfu/g Max. 20\nMould: 100cfu/g Max. 10\nE.Coli: <3 MPN/g <3\nSalmonella/750g: None Detected None Detected"
+      ]
+    },
+    {
+      "question": "Paprika Powder产品的ASTA项目的检测结果是多少？",
+      "ground_truth": "ASTA项目的检测结果是122。",
+      "relevant_docs": [
+        "69729498.pdf"
+      ],
+      "relevant_chunks": [
+        "CHEMICAL:\nASTA : 120-130asta 122"
+      ]
+    },
+    {
+      "question": "Paprika Powder的Ash项目是否符合标准要求？",
+      "ground_truth": "是的，Ash项目的检测结果为6.9%，符合标准要求（Max. 8%）。",
+      "relevant_docs": [
+        "69729498.pdf"
+      ],
+      "relevant_chunks": [
+        "Ash: 8% Max. 6.9"
+      ]
+    }
+  ],
+  "metadata": {
+    "total_pdfs": 76,
+    "total_questions": 228,
+    "pdf_files": [
+      "20148489.pdf",
+      "20223724.pdf",
+      "20237531.pdf",
+      "20242311.pdf",
+      "20293193.pdf",
+      "21007111.pdf",
+      "21028164.pdf",
+      "21156727.pdf",
+      "21188293.pdf",
+      "21188296.pdf",
+      "21188297.pdf",
+      "32236484.pdf",
+      "32236625.pdf",
+      "32895260.pdf",
+      "32899442.pdf",
+      "32902591.pdf",
+      "32961521.pdf",
+      "62733929.pdf",
+      "63013004.pdf",
+      "63014002.pdf",
+      "63124877.pdf",
+      "63131157.pdf",
+      "63371907.pdf",
+      "63917181.pdf",
+      "63917183.pdf",
+      "63917186.pdf",
+      "63917187.pdf",
+      "63917191.pdf",
+      "63917219.pdf",
+      "63917233.pdf",
+      "63917249.pdf",
+      "63917311.pdf",
+      "63917343.pdf",
+      "63917345.pdf",
+      "63917376.pdf",
+      "63917383.pdf",
+      "63917388.pdf",
+      "63917400.pdf",
+      "63917419.pdf",
+      "63917437.pdf",
+      "63917470.pdf",
+      "63917474.pdf",
+      "63917476.pdf",
+      "63917485.pdf",
+      "63917509.pdf",
+      "63917526.pdf",
+      "63917529.pdf",
+      "63917559.pdf",
+      "63917564.pdf",
+      "63917594.pdf",
+      "63917599.pdf",
+      "63917628.pdf",
+      "63917630.pdf",
+      "63917667.pdf",
+      "63980930.pdf",
+      "63980938.pdf",
+      "63982076.pdf",
+      "63983067.pdf",
+      "63984021.pdf",
+      "63984037.pdf",
+      "63984054.pdf",
+      "64394497.pdf",
+      "64798895.pdf",
+      "64798896.pdf",
+      "67007538.pdf",
+      "67066623.pdf",
+      "67094322.pdf",
+      "67204608.pdf",
+      "67252203.pdf",
+      "67380365.pdf",
+      "67577069.pdf",
+      "68338935.pdf",
+      "69604943.pdf",
+      "69606903.pdf",
+      "69711157.pdf",
+      "69729498.pdf"
+    ]
+  }
+}

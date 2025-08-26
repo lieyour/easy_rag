@@ -1,0 +1,22 @@
+# AI 和机器学习相关
+langchain
+langgraph
+dashscope
+openai
+
+# PDF 处理
+PyMuPDF
+pdfplumber
+
+# 向量存储和嵌入
+faiss-cpu
+# 或者使用 faiss-gpu（如果有GPU支持）
+
+# 图像处理
+Pillow
+
+# 环境变量管理
+python-dotenv
+
+# 类型检查
+typing-extensions
